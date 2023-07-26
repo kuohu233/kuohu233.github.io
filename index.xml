@@ -6,12 +6,12 @@
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 18 Jul 2023 09:00:00 -0800</lastBuildDate>
             <atom:link href="https://kuohu233.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>First_post</title>
+    <title>Web Development Process</title>
     <link>https://kuohu233.github.io/posts/2023-07-18first_post/</link>
     <pubDate>Tue, 18 Jul 2023 09:00:00 -0800</pubDate>
     <author>Test</author>
     <guid>https://kuohu233.github.io/posts/2023-07-18first_post/</guid>
-    <description><![CDATA[Test if contents works. [o] Contents in post works.]]></description>
+    <description><![CDATA[Main Reference 感谢椒盐豆豉的教程 Prerequisites Go Hugo Check this page: Build from source. Ta-da List Authors. Avatar and favicon. Conflict with Jekyll. Categories and tabs pages. Page Config. Search Engine. About page and links. Content in post works. Disqus comments feature. Video. Music. Google Analytics.]]></description>
 </item>
 <item>
     <title>十万个人生难题</title>
