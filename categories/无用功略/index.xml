@@ -9,7 +9,80 @@
     <pubDate>Fri, 28 Jul 2023 09:00:00 -0800</pubDate>
     <author>括弧</author>
     <guid>https://kuohu233.github.io/posts/2023-07-29system_design/</guid>
-    <description><![CDATA[我的情况 面向 Data Engineer 求职。 在学校学过基本的 ML, R, 算法和数据库，能写代码能做题，做过一些简单的项目和实习。 但对于产品应该怎么设计，为什么要用某件工具]]></description>
+    <description><![CDATA[<h3 id="我的情况">我的情况</h3>
+<p>面向 Data Engineer 求职。</p>
+<p>在学校学过基本的 ML, R, 算法和数据库，能写代码能做题，做过一些简单的项目和实习。</p>
+<p>但对于产品应该怎么设计，为什么要用某件工具，用了这些工具/方法有什么好处，是不太了解的。</p>
+<p>鉴于前一次面试失败，面试官给的评价是「没用过 Jenkins，不懂 CI/CD」「没用过 Lambda」，我打算开始补课，了解 System Design。</p>
+<p> </p>
+<h3 id="system-design-基础怎么补">System Design 基础怎么补</h3>
+<ul>
+<li>
+<p>找到我曾经用过的工具和他们的竞品，了解各自特点（比如数据库中的 RedShift, MongoDB 和 BigQuery）。</p>
+</li>
+<li>
+<p>看 job description 时，如果看到没有用过的工具，就去看 Demo 和 Tutorial （比如 Terraform）。</p>
+</li>
+<li>
+<p>这支 <a href="https://www.youtube.com/watch?v=WQBc2mY9Jng" target="_blank" rel="noopener noreffer ">YouTube 短片</a>帮助啥都不懂的我大致了解 System Design 是什么，问什么，为什么需要考虑这些问题</p>
+</li>
+<li>
+<p>这里有一些补充知识点：<a href="https://github.com/donnemartin/system-design-primer#how-to-approach-a-system-design-interview-question" target="_blank" rel="noopener noreffer ">GitHub Repo</a></p>
+</li>
+<li>
+<p>97 Things Every Data Engineer Should Know 靠这本书快速了解细节。</p>
+</li>
+<li>
+<p>Designing Data-Intensive Applications 看到好多次这本封面是豪猪的书了。</p>
+</li>
+<li>
+<p><a href="https://missing-semester-cn.github.io/" target="_blank" rel="noopener noreffer ">计算机教育中缺失的一课</a></p>
+</li>
+<li>
+<p><a href="https://github.com/bregman-arie/devops-exercises" target="_blank" rel="noopener noreffer ">DevOps Exercises</a> 有大量相关的题目</p>
+</li>
+<li>
+<p><a href="https://blog.bytebytego.com/" target="_blank" rel="noopener noreffer ">Alex Xu</a> 的博客，可以免费订阅他的 newsletter。</p>
+</li>
+<li>
+<p><a href="https://www.theseattledataguy.com/data-science-consulting-blog/#page-content" target="_blank" rel="noopener noreffer ">Seattle Data Guy</a> 的博客。</p>
+</li>
+</ul>
+<p> </p>
+<h3 id="具体的案例">具体的案例</h3>
+<ul>
+<li>
+<p>NEU CS 教授的 Medium 博客，可以免费阅读 <a href="https://medium.com/@i.gorton">https://medium.com/@i.gorton</a></p>
+</li>
+<li>
+<p>LeetCode Cookbook 分享各类解题思路 <a href="https://books.halfrost.com/leetcode/ChapterOne/">https://books.halfrost.com/leetcode/ChapterOne/</a></p>
+</li>
+<li>
+<p>Facebook 在 2019 年的文章提到过 Scribe 如何处理每小时 petabytes 级别的日志数据 <a href="https://engineering.fb.com/2019/10/07/data-infrastructure/scribe/">https://engineering.fb.com/2019/10/07/data-infrastructure/scribe/</a></p>
+</li>
+<li>
+<p><a href="https://prepfully.com/interview-guides/apple-data-engineer" target="_blank" rel="noopener noreffer ">参考这个网站的问题</a> 比如 Redshift 和 Spark 的优缺点一类的。</p>
+</li>
+<li>
+<p>Streaming data 可能遇到的问题和怎么处理（参考 YouTube）。</p>
+</li>
+<li>
+<p>（我个人觉得） LeetCode Discussion 有比一亩三分地更多更有效的面试经验分享。</p>
+</li>
+<li>
+<p>Taylor Swift 演唱会的抢票系统应给怎么设计，才能保证不管从欧洲还是北美抢票都不会被延迟打乱顺序？</p>
+</li>
+</ul>
+<blockquote>
+<p>以下问题偏向 ML</p>
+<ul>
+<li>如何从一个人的手机地理位置数据看出来这个人是在汽车上还是在火车上？</li>
+<li>如果有两个人两部手机，都在同一辆轿车上，拿到手机的数据之后怎么判断谁是司机谁不是？</li>
+</ul>
+</blockquote>
+<p> </p>
+<h3 id="tbc">TBC</h3>
+]]></description>
 </item>
 </channel>
 </rss>

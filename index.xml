@@ -11,7 +11,80 @@
     <pubDate>Fri, 28 Jul 2023 09:00:00 -0800</pubDate>
     <author>括弧</author>
     <guid>https://kuohu233.github.io/posts/2023-07-29system_design/</guid>
-    <description><![CDATA[我的情况 面向 Data Engineer 求职。 在学校学过基本的 ML, R, 算法和数据库，能写代码能做题，做过一些简单的项目和实习。 但对于产品应该怎么设计，为什么要用某件工具]]></description>
+    <description><![CDATA[<h3 id="我的情况">我的情况</h3>
+<p>面向 Data Engineer 求职。</p>
+<p>在学校学过基本的 ML, R, 算法和数据库，能写代码能做题，做过一些简单的项目和实习。</p>
+<p>但对于产品应该怎么设计，为什么要用某件工具，用了这些工具/方法有什么好处，是不太了解的。</p>
+<p>鉴于前一次面试失败，面试官给的评价是「没用过 Jenkins，不懂 CI/CD」「没用过 Lambda」，我打算开始补课，了解 System Design。</p>
+<p> </p>
+<h3 id="system-design-基础怎么补">System Design 基础怎么补</h3>
+<ul>
+<li>
+<p>找到我曾经用过的工具和他们的竞品，了解各自特点（比如数据库中的 RedShift, MongoDB 和 BigQuery）。</p>
+</li>
+<li>
+<p>看 job description 时，如果看到没有用过的工具，就去看 Demo 和 Tutorial （比如 Terraform）。</p>
+</li>
+<li>
+<p>这支 <a href="https://www.youtube.com/watch?v=WQBc2mY9Jng" target="_blank" rel="noopener noreffer ">YouTube 短片</a>帮助啥都不懂的我大致了解 System Design 是什么，问什么，为什么需要考虑这些问题</p>
+</li>
+<li>
+<p>这里有一些补充知识点：<a href="https://github.com/donnemartin/system-design-primer#how-to-approach-a-system-design-interview-question" target="_blank" rel="noopener noreffer ">GitHub Repo</a></p>
+</li>
+<li>
+<p>97 Things Every Data Engineer Should Know 靠这本书快速了解细节。</p>
+</li>
+<li>
+<p>Designing Data-Intensive Applications 看到好多次这本封面是豪猪的书了。</p>
+</li>
+<li>
+<p><a href="https://missing-semester-cn.github.io/" target="_blank" rel="noopener noreffer ">计算机教育中缺失的一课</a></p>
+</li>
+<li>
+<p><a href="https://github.com/bregman-arie/devops-exercises" target="_blank" rel="noopener noreffer ">DevOps Exercises</a> 有大量相关的题目</p>
+</li>
+<li>
+<p><a href="https://blog.bytebytego.com/" target="_blank" rel="noopener noreffer ">Alex Xu</a> 的博客，可以免费订阅他的 newsletter。</p>
+</li>
+<li>
+<p><a href="https://www.theseattledataguy.com/data-science-consulting-blog/#page-content" target="_blank" rel="noopener noreffer ">Seattle Data Guy</a> 的博客。</p>
+</li>
+</ul>
+<p> </p>
+<h3 id="具体的案例">具体的案例</h3>
+<ul>
+<li>
+<p>NEU CS 教授的 Medium 博客，可以免费阅读 <a href="https://medium.com/@i.gorton">https://medium.com/@i.gorton</a></p>
+</li>
+<li>
+<p>LeetCode Cookbook 分享各类解题思路 <a href="https://books.halfrost.com/leetcode/ChapterOne/">https://books.halfrost.com/leetcode/ChapterOne/</a></p>
+</li>
+<li>
+<p>Facebook 在 2019 年的文章提到过 Scribe 如何处理每小时 petabytes 级别的日志数据 <a href="https://engineering.fb.com/2019/10/07/data-infrastructure/scribe/">https://engineering.fb.com/2019/10/07/data-infrastructure/scribe/</a></p>
+</li>
+<li>
+<p><a href="https://prepfully.com/interview-guides/apple-data-engineer" target="_blank" rel="noopener noreffer ">参考这个网站的问题</a> 比如 Redshift 和 Spark 的优缺点一类的。</p>
+</li>
+<li>
+<p>Streaming data 可能遇到的问题和怎么处理（参考 YouTube）。</p>
+</li>
+<li>
+<p>（我个人觉得） LeetCode Discussion 有比一亩三分地更多更有效的面试经验分享。</p>
+</li>
+<li>
+<p>Taylor Swift 演唱会的抢票系统应给怎么设计，才能保证不管从欧洲还是北美抢票都不会被延迟打乱顺序？</p>
+</li>
+</ul>
+<blockquote>
+<p>以下问题偏向 ML</p>
+<ul>
+<li>如何从一个人的手机地理位置数据看出来这个人是在汽车上还是在火车上？</li>
+<li>如果有两个人两部手机，都在同一辆轿车上，拿到手机的数据之后怎么判断谁是司机谁不是？</li>
+</ul>
+</blockquote>
+<p> </p>
+<h3 id="tbc">TBC</h3>
+]]></description>
 </item>
 <item>
     <title>Web Development Process</title>
@@ -19,7 +92,40 @@
     <pubDate>Tue, 18 Jul 2023 09:00:00 -0800</pubDate>
     <author>Test</author>
     <guid>https://kuohu233.github.io/posts/2023-07-18first_post/</guid>
-    <description><![CDATA[Main Reference 感谢椒盐豆豉的教程 Prerequisites Go Hugo Check this page: Build from source. Ta-da List Authors. Avatar and favicon. Conflict with Jekyll. Categories and tabs pages. Page Config. Search Engine. About page and links. Content in post works. Avatar to &lsquo;/about&rsquo;. Font and size adjustment. Comments feature. Isso or Giscus? Comments? Video. Music. iFrame caused blacking out. Try to fix it. Google Analytics.]]></description>
+    <description><![CDATA[<h3 id="main-reference">Main Reference</h3>
+<p>感谢<a href="https://blog.douchi.space/blog-migrate-wordpress-hugo/#gsc.tab=0" target="_blank" rel="noopener noreffer ">椒盐豆豉的教程</a></p>
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Go</li>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> <a href="https://gohugo.io/installation/windows/" target="_blank" rel="noopener noreffer ">Hugo</a> Check this page: Build from source.</li>
+</ul>
+<h3 id="ta-da-list">Ta-da List</h3>
+<ul>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Authors.</li>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Avatar and favicon.</li>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Conflict with Jekyll.</li>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Categories and tabs pages.</li>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Page Config.</li>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Search Engine.</li>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> About page and links.</li>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Content in post works.</li>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Avatar to &lsquo;/about&rsquo;.</li>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Font and size adjustment.</li>
+<li><i class="far fa-square fa-fw" aria-hidden="true"></i> Comments feature. Isso or Giscus?
+<ul>
+<li><i class="far fa-square fa-fw" aria-hidden="true"></i> Comments?</li>
+</ul>
+</li>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Video.</li>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Music.
+<ul>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> iFrame caused blacking out. Try to fix it.</li>
+</ul>
+</li>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Google Analytics.</li>
+<li><i class="far fa-square fa-fw" aria-hidden="true"></i> RSS description shows full context.</li>
+</ul>
+]]></description>
 </item>
 <item>
     <title>十万个人生难题</title>
@@ -27,7 +133,195 @@
     <pubDate>Fri, 29 Nov 2019 09:00:00 -0800</pubDate>
     <author>括弧</author>
     <guid>https://kuohu233.github.io/posts/2019-11-29questions/</guid>
-    <description><![CDATA[以下思考过的问题按最近出现时间排序。 2023-06-20 养植物和炸厨房算不算是成为女巫的必修课？ 亚洲人做的白人饭和白人做的亚洲饭，哪个更难吃？ 奥林匹克国家公园]]></description>
+    <description><![CDATA[<p>以下思考过的问题按最近出现时间排序。</p>
+<h3 id="2023-06-20">2023-06-20</h3>
+<ul>
+<li>
+<p>养植物和炸厨房算不算是成为女巫的必修课？</p>
+</li>
+<li>
+<p>亚洲人做的白人饭和白人做的亚洲饭，哪个更难吃？</p>
+</li>
+<li>
+<p>奥林匹克国家公园的太阳更毒还是蚊子更毒？</p>
+</li>
+<li>
+<p>无人机表演是烟花的升级版还是平替？</p>
+</li>
+</ul>
+<h3 id="2022-04-17">2022-04-17</h3>
+<ul>
+<li>
+<p>为什么跳新疆舞扭脖子时，手要放在下巴下方？</p>
+</li>
+<li>
+<p>为什么那家面包店读作「八十五度C」而不是「八十五摄氏度」？</p>
+</li>
+<li>
+<p>手指表面皮肤受伤之后还能用touchID吗？</p>
+</li>
+<li>
+<p>内卷的英文应该是involution（植物叶子内卷）还是ingrow（毛发内卷）？</p>
+</li>
+<li>
+<p>以前鼠标下的球去哪儿了？</p>
+</li>
+<li>
+<p>Coffee meets bagel的中文翻译应该叫咖啡配面包还是豆浆配油条？</p>
+</li>
+</ul>
+<h3 id="2021-12-06">2021-12-06</h3>
+<ul>
+<li>在奶茶店看到一对约会的男女，男的即兴表演TED Talk，女的表情尴尬。这个时候，如果我跟他们打招呼说「嗨，老公，你也和同事约在这里呀？」会怎么样？</li>
+</ul>
+<h3 id="2021-11-08">2021-11-08</h3>
+<ul>
+<li>
+<p>元宇宙是不是逆练居伊德波？</p>
+</li>
+<li>
+<p>肉夹馍是不是穿了羽绒服的taco？</p>
+</li>
+<li>
+<p>Dating app的用户里，是认真找对象的人比较多，还是写小作文缺素材了来找故事的人比较多？</p>
+</li>
+<li>
+<p>为什么海豹圆滚滚的肚子看起来可爱，人类圆滚滚的肚腩就不好看呢？</p>
+</li>
+<li>
+<p>亚麻员工敲下pip install时，会不会感觉到灵魂的微微颤抖？</p>
+</li>
+</ul>
+<h3 id="2021-09-21">2021-09-21</h3>
+<ul>
+<li>
+<p>投简历投到中西部地区和自求流放宁古塔有什么区别？</p>
+</li>
+<li>
+<p>现在还有人记得，在没有手机导航和GPS的年代，人们应该如何出行，如何去另一个城市，如何长途旅行吗？</p>
+</li>
+<li>
+<p>是不是每一个拉拉/女bi都有被直男骚扰要求3P的经历？</p>
+</li>
+<li>
+<p>美国的古典音乐是不是近似于国内京剧的状况？</p>
+</li>
+</ul>
+<h3 id="2021-06-05">2021-06-05</h3>
+<ul>
+<li>
+<p>人类幼崽算不算复杂度更高的玩偶娃娃？生活本身是不是一场复杂度更高的剧本杀？</p>
+</li>
+<li>
+<p>为什么人可以接受无药可救的肉体，却难以接受得了绝症的精神？</p>
+</li>
+<li>
+<p>一亩三分地论坛是不是北美最好的避孕药？</p>
+</li>
+<li>
+<p>辣条算不算人造肉？</p>
+</li>
+<li>
+<p>为什么丧尸片里的人那么害怕变成丧尸？（换作是我的话，肯定是打不过就加入啊……）</p>
+</li>
+<li>
+<p>穿JK的妹妹们是怎么辨认各种（看起来几乎一模一样的）格子裙的风格品牌甚至型号的？</p>
+</li>
+</ul>
+<h3 id="2021-04-30">2021-04-30</h3>
+<ul>
+<li>
+<p>形式大于内容的表达会不会让读者抑郁？</p>
+</li>
+<li>
+<p>独角鲸应该怎样接吻？</p>
+</li>
+<li>
+<p>我要怎样才能成为一个软饭男？</p>
+</li>
+</ul>
+<h3 id="2021-01-19">2021-01-19</h3>
+<ul>
+<li>
+<p>决定生一个人和决定杀一个人，哪个比较困难？</p>
+</li>
+<li>
+<p>《金瓶梅》算是《水浒传》的同人文吗？</p>
+</li>
+<li>
+<p>「可爱」的最高级是不是「想rua」？</p>
+</li>
+<li>
+<p><em>Hamilton</em> 算是美国的《建国大业》还是《亮剑》？</p>
+</li>
+</ul>
+<h3 id="2020-06-09">2020-06-09</h3>
+<ul>
+<li>
+<p>DMV和USCIS，哪个效率更低？</p>
+</li>
+<li>
+<p>以下分手理由哪个比较搞笑？（并没有在暗示谁）</p>
+<p>a. 喝水速度太慢</p>
+<p>b. 不会选cpu</p>
+<p>c. 分不清的地得</p>
+</li>
+</ul>
+<h3 id="2020-05-17">2020-05-17</h3>
+<ul>
+<li>
+<p>特朗普和马斯克，谁更像邪教头子？</p>
+</li>
+<li>
+<p>dating app上被问到什么问题你会翻白眼？</p>
+<p>a. 你爱国吗？</p>
+<p>b. 你看过哪些提升自我的书？</p>
+</li>
+</ul>
+<h3 id="2020-03-09">2020-03-09</h3>
+<ul>
+<li>公司招人时发现有以前代课TA的简历，应不应该约一个面试？</li>
+</ul>
+<h3 id="2020-01-05">2020-01-05</h3>
+<ul>
+<li>
+<p>面对Fake News，应该怎么做比较好？</p>
+<p>a. 坚持辟谣，影响议程。</p>
+<p>b. 不做任何辟谣，不给假新闻增加热度和话题。</p>
+</li>
+<li>
+<p>以下城市哪个更宜居？</p>
+<p>a. 适合步行和骑车。</p>
+<p>b. 永不堵车但绝对无法靠步行和骑车满足基本生活需求。</p>
+</li>
+<li>
+<p>理发店的灵魂在哪里？</p>
+<p>a. 门口旋转的红白蓝柱子</p>
+<p>b. 跟人八卦聊诗词歌赋人生理想的理发师</p>
+</li>
+<li>
+<p>美国工程师断代的主要原因是不是英制单位？</p>
+</li>
+</ul>
+<h3 id="2019-11-29">2019-11-29</h3>
+<ul>
+<li>
+<p>看了《乌合之众》之后觉得自己头脑清醒思考独立不是乌合之众的人是不是乌合之众？</p>
+</li>
+<li>
+<p>H-1b是不是当代奴隶制？</p>
+</li>
+<li>
+<p>在a、b两个城市市中心，打开Tinder，点开bios并提取关键词。
+其中a市关键词为 “adventurous”, “looking for the next adventure.”
+在b市刷十个人能看到九次“existential dread.”
+a和b哪里更适合年轻人生活？</p>
+</li>
+<li>
+<p>如果抑郁症患者意识到自己无法控制情绪而只能依赖药片，会不会更觉得自己无能，导致病情更严重？</p>
+</li>
+</ul>
+]]></description>
 </item>
 <item>
     <title>沙县定食，椰青刺身... 总有一款高级感让你吃土</title>
@@ -35,7 +329,59 @@
     <pubDate>Fri, 05 Jan 2018 09:00:00 -0800</pubDate>
     <author>括弧</author>
     <guid>https://kuohu233.github.io/posts/2018-01-05menu_length/</guid>
-    <description><![CDATA[微博上有人点外卖，菜单上的一份椰肉，叫做「椰青刺身」。隔壁超市里的白面包不只叫白面包，它叫做「波西米亚面包」；可乐鸡翅不能只叫做可乐鸡翅，菜]]></description>
+    <description><![CDATA[<p>微博上有人点外卖，菜单上的一份椰肉，叫做「椰青刺身」。隔壁超市里的白面包不只叫白面包，它叫做「波西米亚面包」；可乐鸡翅不能只叫做可乐鸡翅，菜单上要叫那不勒斯鸡翅；王老吉也要趁着朋克养生的风，在实体店里摆上薏仁和枸杞，通过不同排列组合方式推出新产品，美名其曰现泡凉茶。</p>
+<p>100 年前的英文菜单也深谙取名的套路：即使厨师一点法语也不懂，也要在菜名中加入法语调味，借此来获得一点高级感，比如Le Crabmeat Cocktail。你知道 crabmeat，你也知道 cocktail，但是加入&quot;Le&quot;之后，你就看不懂了。而且越是昂贵的餐厅，使用法语的频率越高，尤其在1900年左右，高档餐厅使用法语菜名的频率是其他餐厅的五倍。</p>
+<p><figure><a class="lightgallery" href="https://imgur.com/sanrTPz.png" title="Imgur" data-thumbnail="https://imgur.com/sanrTPz.png" data-sub-html="<h2>▲ 我校的 La Crepe 可丽饼菜单，La Crepe 约等于国内高校门口的煎饼果子。即使是路边摊，也要加入法语来提升姿势水平。右下角还有中文标注的「诚招」。几年过去了，这里依然没有一个中国摊饼师傅。</h2><p>Imgur</p>">
+        
+    </a><figcaption class="image-caption">▲ 我校的 La Crepe 可丽饼菜单，La Crepe 约等于国内高校门口的煎饼果子。即使是路边摊，也要加入法语来提升姿势水平。右下角还有中文标注的「诚招」。几年过去了，这里依然没有一个中国摊饼师傅。</figcaption>
+    </figure></p>
+<p>在今天的美国人看来，混血法语已经不再新鲜。要表现出高级感，还是有许多方法的。</p>
+<p>来看这张菜单的套路：主菜里，肉的来源需要标注清楚，农场的名字着重标记；牛是吃草养大的，这一条也要着重突出。</p>
+<p></p>
+<p>这个套路与红酒酒标大致相同：如果生产红酒的地区比较出名，那么就在酒标上说明地区；如果生产红酒的酒厂非常牛逼，就需要把酒庄等级拿出来强调。产品的具体信息越多，越有说服力，就越能产生高级感，扔到朋友圈时，提到「拉菲红酒」总比「法国波尔多红酒」更有影响力。</p>
+<p>高档餐厅使用的单词偏长，描述主菜的形容词甚至可以超过 12 个字母。一般来说，字母越少的英文单词更容易被人记住。与人交流时，使用的单词越短，越容易让他人理解——单词越短，你在一行文字，或者一段固定时间内，就能表达更多意义。但为了表现出高级感，菜单设置往往不打算让读者轻松理解内容。餐厅想让人花费更多的时间来阅读菜单，想给人一种「我们很有品位，绝不接地气，拒绝做路边摊」的感觉。因此，你会经常在便宜的餐厅多在菜单中使用 decaf，而极少在标价三个「$」的高档咖啡厅看到这个单词——他们更喜欢用 decaffeinated，虽然这两个词是同一个意思。 相比较之下，比伯的歌曲名字往往简单粗暴，近年来连两个单词的曲目都越来越少见，可以说是相当接地气了。</p>
+<p><figure><a class="lightgallery" href="https://imgur.com/0xqNA0W.png" title="img" data-thumbnail="https://imgur.com/0xqNA0W.png" data-sub-html="<h2>▲ 左侧是 The Beatles 的歌名，右侧是比伯的歌名。左侧平均每首歌包含 3.75 个单词，右侧平均为 2.3 个单词。</h2><p>img</p>">
+        
+    </a><figcaption class="image-caption">▲ 左侧是 The Beatles 的歌名，右侧是比伯的歌名。左侧平均每首歌包含 3.75 个单词，右侧平均为 2.3 个单词。</figcaption>
+    </figure></p>
+<p>Mark Liberman 提出了状态焦虑，这也能解释部分菜品命名规律：一般来说，餐馆不会使用 ripe 或者 fresh 这类词语，因为我们一直以来都假定所用的原料都保持最佳状态，需要它保持新鲜，那么餐馆就会负责保鲜。反观一些中档餐馆，他们对多数菜品缺乏讲究，而一旦他们开始讲究起来，使用了恰到好处的原料，又担心顾客不会假定他们用了高档原料，于是格外强调这一点。</p>
+<p>这样一来，反而有些过度保护。一些低档的日料餐厅甚至会在菜单中突出使用「蟹肉做的蟹肉棒」，以此来区分鱼肉假扮的蟹肉棒。但即使取了个突出重点的好名字，上菜之后，食客仍能从混杂的粘腻寿司卷中看出餐厅的水平。</p>
+<p><figure><a class="lightgallery" href="https://imgur.com/O2d5sTW.png" title="img" data-thumbnail="https://imgur.com/O2d5sTW.png" data-sub-html="<h2>▲ Real Crab California Roll... 看到这盘菜以后，我忽然更喜欢 fake crab meat 了。</h2><p>img</p>">
+        
+    </a><figcaption class="image-caption">▲ Real Crab California Roll... 看到这盘菜以后，我忽然更喜欢 fake crab meat 了。</figcaption>
+    </figure></p>
+<p>同时，菜名的单词数量越多，价格也普遍更贵。调查显示，一道菜平均每增加一个单词，它的价格就会多 18 美分。一些特殊词语的使用也会为定价增加筹码，比如 exotic，这个词的作用约等于中文菜单中的「刺身」「佛罗伦萨」「新奥尔良」或者「德克萨斯」。而另一些词语则有降低档次的作用，比如 rich，tasty，delicious（虽然它有 10 个字母，但在菜单设计中也算是 low-end）。不仅是菜单中的用词会影响价格认知，在房屋销售广告中，挂有 charming和 fantastic 这两个单词也会让房屋价格稍微降低，而使用 granite 和 maple 等词汇的房屋会提高房屋的售价。</p>
+<p>除了文案本身，排版和字体也会影响食客的期待值。花体的英文字体，清新的照片，不拥挤的菜单排版，都是高级感的辅料。</p>
+<p>在讲求消费升级的今天，可以共享的除了自行车，还有健身房和图书馆。我们买咖啡要挑独角兽色的，买家具要买马卡龙色的，买洗发水之前也要看看是不是无硅油。人们对美好生活的定义越来越简单普遍时，也正是对症加价的最佳时机。比如这碗土豆泥，只叫它「土豆泥」是卖不出价钱的，但是如果换个名字，可能就大不相同了，比如这样的：</p>
+<div id="id-1"><p><strong>Idaho 土豆泥</strong></p>
+<p>加入 Land O Lake 无盐黄油</p>
+<p>4 oz. Lucerne 全脂牛奶</p>
+<p>佐以黑胡椒末和罗勒叶</p>
+</div>
+<p></p>
+<div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw" aria-hidden="true"></i>参考资料：<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ol>
+<li>
+<p>Dan Jurafsky (2014). The Language of Food: A Linguist Reads the Menu. W. W. Norton &amp; Company.</p>
+</li>
+<li>
+<p>Dave Pavesic (2005). The Psychology of Menu Design: Reinvent Your &lsquo;Silent Salesperson&rsquo; to Increase Check Averages and Guest Loyalty. Georgia State University.</p>
+</li>
+<li>
+<p>Bahattin Ozdemir, Osman Caliskan (2014). A Review of Literature on Restaurant Menus: Specifying the Managerial Issues.</p>
+</li>
+<li>
+<p>馬健偉 (2009) 餐饮服务与管理</p>
+</li>
+</ol>
+</div>
+        </div>
+    </div>
+]]></description>
 </item>
 <item>
     <title>搬家记</title>
@@ -43,7 +389,53 @@
     <pubDate>Tue, 01 Aug 2017 09:00:00 -0800</pubDate>
     <author>括弧</author>
     <guid>https://kuohu233.github.io/posts/2017-08-01moving/</guid>
-    <description><![CDATA[做了一个月的空巢少女后，我终于搬了家。 前室友离开时太匆忙，收拾完衣服就走了，留下的家具也没有来得及卖出去。床和桌子，旧杂志和海报，都留下来了]]></description>
+    <description><![CDATA[<p>做了一个月的空巢少女后，我终于搬了家。</p>
+<p>前室友离开时太匆忙，收拾完衣服就走了，留下的家具也没有来得及卖出去。床和桌子，旧杂志和海报，都留下来了。我断断续续扔了20来个垃圾袋，什么从来没用过的 baking soda 啊，从来没烧烤却不知道怎么就出现在储物柜里的烧烤酱，一般人完全用不上的各种尺子，还有一柜子茶。但其实我们都不喝茶。</p>
+<p>来美国之前，家里人总要拖着带一些国内的特产，比如茶叶。我还记得当时我妈跟人吵架，就为了一罐茶叶的生产日期：「这不是明前茶的嘛！这是清明节后两天出的！」来美国转交这罐茶叶，我跟收到它的人解释说，我妈妈不是故意要次一点的，是当时实在没货了，只有清明之后生产的茶了，对方突然就笑出声。</p>
+<p>我不知道他是不是也像我这样，搬家时会把自己清空一遍。脑子里试着想象他住的地方，有一整套国内背来的茶具，热水加到茶杯里就会显现出龙纹，吧台上放着好几个不同的咖啡机，客厅的三个柜子七八个箱子，储物柜里满满当当的薏仁、枸杞、银耳，还有茶叶……忽然觉得自己的小家都不算什么事儿了。</p>
+<p>最麻烦的，不过就是客厅有一架立式钢琴。不是 80 磅的电钢，是 100 来公斤的木头钢琴——当然，我没怎么弹过，室友也不会弹。</p>
+<p>我当时发了条消息，说是卖置物台，兼做乐器使用。我这说的都是实话，对我来说，这玩意儿绝对更像一个置物台，而不是钢琴。这就像对于不习惯健身的人来说，家里的跑步机终究会变成晾衣杆一样。</p>
+<hr>
+<p>消息放出之后，陆陆续续有人来问钢琴的情况。可我真的只把它当做置物台来卖的，如果是我把它当作钢琴，就不会贱卖了。</p>
+<p>出价最高的人说 120 刀收了，可以马上拿走，我说好。对方说拿走之前还想来看看情况，我说好的。来了之后对着置物台吐槽半天，什么太旧啦，音不准啦，我只能内心暗暗翻白眼，然后告诉他：你去看我房间里的电钢琴，触键很爽，不需要调音，就是贵了点，原价税前2000刀。</p>
+<p>这笔买卖当然没做成。他说问题也确实存在，我后来去找了一下这个琴的型号，发现已经停产了；细想一下，确实也该停产了，最近几十年的钢琴多数是翻盖的，琴盖翻起来可以当作谱架，但是这架钢琴需要把盖子叠两次，塞到钢琴里边去，跟学校琴房里的立式钢琴一样。好在钢琴的牌子和生产批号还在，可以查到生产年份。一查，原来是1911年的老钢琴。</p>
+<p>木头能撑过100多年，经历过大萧条和二战，见识了60年代的爱之夏，几经辗转，最后到了我这里，未免太不容易。我想了下琴键会不会是象牙做的，但又觉得，不管是钻石还是什么做的，对于下一个买家来说都没有价值了。</p>
+<p>最后收下这架钢琴的是个小学妹。一开始说 100 刀，搬运费我看到最便宜的是 150 刀，她有点犹豫，毕竟搬运费都比钢琴本身贵。但是换个说法，250 刀，包邮，这笔买卖就做成了。</p>
+<hr>
+<p>搬家那天杂物太多，箱子太少，我这才意识到原来平时看着不怎么多的厨具，竟然也零零散散装了七八个箱子，锅和碗，烤盘和乐扣，调料和酒杯，竟然需要那么多空间。衣服和书反而不是特别多，一个柜子和两个旅行箱就可以带走所有衣物，如果不是为了找衣服穿更方便，我还可以再扔一个箱子的衣服，等到要回国的时候，我甚至可以只留下几件稍微贵一点的正装，其他全部扔掉。至于其他的杂物，那就更不用说，除了留下好友送的明信片，通通扔掉就对了。</p>
+<p>这个时候开始单曲循环 Take it from me，唱到高潮时，歌词里全是 Come on take it, come on take it, take it from me. 简直就是现在的我：求求各位打算收二手用具的爸爸们，把他们都带走吧。</p>
+<data id="id-1" data-raw></data>
+<p>其实我在每次买东西的时候，就会下意识想到以后怎么搬走，怎么转卖。所以我买了不少柜子，这样搬运的时候，我可以把抽屉一个一个拆下来，先把空架子搬走，再把抽屉一个一个拼回去，这样我就不需要为我一个人抬几十公斤的大箱子发愁了；所以我连打包都尽量用小箱子，装几本教材就够，不然一个箱子太重，我抱不起来；所以临到搬家头几天，我去超市也估计着最后一天的食物来买吃的，保证搬家当天和第二天不会因为没有早饭而挨饿；所以我从来不敢添置太沉重的家具，100公斤的钢琴就绝对不在考虑范围内。</p>
+<p>这种感觉，大概就是，我知道和这个人交往会分手，而且分手会很难看，所以从一开始就拒绝约会差不多，假装自己面对感情问题无所畏惧，假装自己永远潇洒又轻松。</p>
+<p>我以为我也可以在需要离开的时候轻装上阵，但还是错了。扔掉 20 袋垃圾后，还是太过沉重。之前我也搬过家，大一搬过两次，但是那几乎算不上什么搬家，撑死不过拖着两箱子的衣服满大街乱跑。大二和大三我住在同一个地方，没挪过窝，大三升大四的时候从一个朋友那儿搬到了另一个朋友那儿，客厅和厨房家具都是齐全的，我只需要把自己和房间原封不动搬过去就好。</p>
+<p>这次我要准备一个月后搬去一个空荡荡的公寓，里面除了地毯和灶台，其他什么家具都没有。我一面把多余的自己扔掉，一面把未来室友可能需要的客厅的桌椅、厨房的全套用具都塞进三十来度的高温天气里。</p>
+<hr>
+<p>目前暂时居住在北边一个安静的角落，目前还没遇见过门口大呼小叫的男生，也没见过半夜坐在门口边哭边吼着 “He cheated on me!” 的女生。</p>
+<p>有些时候觉得这地方过于安静，每栋房子都长得一模一样，以至于我搬家那天，对着15号房扭动钥匙，却被住在15号的姑娘用一种「这个人好可怕！」的眼神盯住，这才意识到我好像认错房子了，于是又跟着抬箱子的 labor 一起满小区地找我住哪间房。</p>
+<p>等到把箱子一件一件从卡车上卸下来，已经到了晚上六点，而我只在早上吃了两片面包，搬一天家以后，走路姿势都有些不正常。请人吃了饭，吐槽了新一集的《权力的游戏》，再回到住处已经天黑了。</p>
+<p>我不是很想用「回家」这个说法，对于我来说，和今后没有交集的人合住一个月，每次回来时都不会有「回家」的感觉。</p>
+<p>回到自己的房间待了两分钟，就跑去问室友是不是空调坏了。当时转租房子给我的人说这里有空调，叫我不要担心。</p>
+<p>室友说，空调是有的，但是我们不想交空调费，所以就没开，你要是想凉快就要自己交空调费……对的，空调费和电费是区分开来的。</p>
+<p>整个道理听得我一头雾水，我再三确认了下，这里的房租平均下来是每人每月 900 刀左右，空调再贵也不过一人出 30 刀。如果是没钱，何必租这么贵的房子，如果出得起 900 刀的月租，怎么会 30 刀的空调费也不舍得。虽然没懂是怎么回事，但好像也不需要懂，先照做吧。</p>
+<p>于是我第二天就带着外套去图书馆避暑了。</p>
+<p>心想等到天黑，总会有点凉风，睡觉不会太热。干脆连晚饭都在学校周边解决掉了。头一天晚上看到塞满的冰箱，有些无奈，期待着冷冻室有个可以放下一盒冰淇淋的地方，但很可惜，也没有。我想暂时还不能在家里做饭吧。</p>
+<p>我想了下，不管是 FIFO 还是 LIFO，吃空一个冰箱，没个十天半个月恐怕是不行的。这个时候忽然有些想念大一的室友们，他们永远只会在冰箱里放几瓶水和半个牛油果，冰箱永远干净整洁；或者是大二大三的室友，冰箱里总有个留给我糟蹋食物的角落；大四的冰箱里常年留着饺子和鱼丸，随时都可以烫火锅。</p>
+<p>等到天黑了，我回房间把窗户打开，盼着凉风从西边开的窗户吹过来，降一降温，但是过了好久都没有风。</p>
+<p>于是我去隔壁超市避暑，站在冷冻架前吹凉风。等到差不多十点过了，房间里的温度才降了下来。</p>
+<p>我想，以后绝对不能住窗户向西边开的房子了。</p>
+<p>回去之后，发现冰箱整齐许多，第二层的中间也留出了能叠放三盒靓妈厨房的外卖的空间，足够放下我刚买回来的牛奶。啊，真好。</p>
+<p>如果这个时候有人问我「这个世界会好吗？」我一定会说：会的！你看那么乱的冰箱也有腾出牛奶的机会呀！</p>
+<hr>
+<p>然后，一个扭头，看到了洗碗池里的碗。</p>
+<p>可能冰箱里少的那些东西，都到洗碗池了吧。</p>
+<p>已经堆了 24 小时了吧。</p>
+<p>隔着些距离也能闻到boiling crab 的小龙虾味道，池子边上还有个不知道装了什么糊糊的碗。</p>
+<p>讲真，我自己并不是个爱干净的人，但是底线很明确：没有异味。</p>
+<p>抬头看到洗碗池边上贴得歪歪扭扭的 Kitchen Rules，忽然有些懂了。为什么要贴上提示来提醒自己要洗碗呢，很明显，因为没有及时洗碗的习惯呀！</p>
+<p></p>
+<p>想到这里，不由得放低声音说一句：</p>
+<p>法克。</p>
+]]></description>
 </item>
 <item>
     <title>如果30年的工资还不如随手买一套房子，我为什么要工作？</title>
@@ -51,7 +443,47 @@
     <pubDate>Wed, 26 Apr 2017 09:00:00 -0800</pubDate>
     <author>括弧</author>
     <guid>https://kuohu233.github.io/posts/2017-04-26housing_or_compensation/</guid>
-    <description><![CDATA[不如插花，工作不如插花。 我妈还没到 50 岁，天天叨念想着退休，巴不得她单位裁员把她裁掉。前几天她说想退休以后兼职插花。 我刚想吐槽说她少女心爆发，]]></description>
+    <description><![CDATA[<p><strong>不如插花，工作不如插花。</strong></p>
+<p>我妈还没到 50 岁，天天叨念想着退休，巴不得她单位裁员把她裁掉。前几天她说想退休以后兼职插花。</p>
+<p>我刚想吐槽说她少女心爆发，忽然想起来好像是有这么一回事。她年轻的时候喜欢两个工作，一个是医生，另一个就是开花店，卖花。然而做了几十年的工作跟着两个一点都不搭边。刚好现在花市搬到我家旁边来，她要是有空可以去学插花，然后把房子卖了，开个花店。</p>
+<p>我劝她暂时按下房子，别卖，还要涨价。她有点迟疑，说了一句话：<strong>我三十年领的工资加起来，也没有x万，一套旧房子值x万的话，有点悲哀。</strong></p>
+<p>之前我们说过卖房子的事，她觉得一百多万差不多得了，我想着以后涨价再卖，当时她有些犹豫，我还没看出来是为了什么。那种自己全副身心的努力被资本肆意踩踏的感觉，恐怕真的会让人绝望。年轻人每个月的工资还比不上一个月的房子涨价，买了房子的人在庆幸之余却又对自己的事业失掉了热情：一不小心买套房子就搞定了这辈子的工资，那还工作干什么？</p>
+<p> </p>
+<p>我最近一不小心哭几个小时，哭到眼睛红肿，一看屏幕就眼睛疼。丧的原因很多，当然主要是学习和工作方面的。</p>
+<p>想起来小时候想学考古，被我妈劝住了；后来考虑过学环境工程，但是 UC Davis 前几年把环境工程合并到了土木工程下，而我不想学如何搬砖头，于是改行学了化工；化工没学好，做起了编辑；好不容易找到喜欢的公司实习，现在又需要裁员，这份工作最后也只能成为简历里的一段过往经历。</p>
+<p>总之，「以后究竟要干什么？」这个问题目前是定不下结果来的。当然有相似问题的人也不止我一个人。</p>
+<p>某次去 downtown 修手机，搞机小哥问了一句：「诶你什么专业的啊？」「我？化工。」「好巧，我也是化工！」然后他用一种「惊不惊喜？意不意外？」的眼神看着我。</p>
+<p>去隔壁超市买菜，看到毕业的学姐在超市做起了收银员，两两相看尬出天际。</p>
+<p>去食堂吃个饭怀念大一的新生美好时光，看到好几个化工的同学。</p>
+<p>写码的，写稿子的，写报告的……竟然没有几个找到了化工相关的工作，更不要说火爆钱多的石油类企业了。</p>
+<p>耗时四年多，学了一个找不到工作的专业，真的有意思么？如果在专业上做得特别好都得不到认可，拿不到钱，那还有什么意义？实习单位出事以后，我一直在想这个问题。在profession 程度够高的情况下开业第一年就拿下大奖，但是挣钱能力和 profession 不怎么相关，一旦投资方撤资就只能裁员。可以说这就是满心欢喜坐上了世界上最大最豪华的游轮，然后猛地发现是泰坦尼克号，你很难说这场悲剧是谁的过错造成的，但是它确确实实地发生了。</p>
+<p>这段时间我不是没有安慰过自己。鸡汤喝了，哭过了，捡起了多年不看的英剧，心想既然鸡汤治不了我，那就让喜剧来治吧，结果看到 Yes, Minister 里一句台词：</p>
+<p><strong>The history of the world is the triumph of the heartless over the mindless.</strong></p>
+<p><strong>历史就是无情对无脑的胜利史。</strong></p>
+<p>当下觉得被泼了盆冷水。不仅没觉得好笑，反而有点想哭。</p>
+<p>也有人安慰，说着：「遇到这么点困难怕啥，失败是成功之母，就当积累经验了啊！有成长啊！重在过程和参与啊！你能挺过去的不要担心啦~」</p>
+<p>确实……也没错。可是经验和过程买不到今天的晚饭。没有得到他人认可的价值，就没有与人交易的资本；要一个吃土少女画饼聊理想，从诗词歌赋谈到人生哲学，是不是太强人所难？在「物质基础决定上层建筑」的讨论上，我坚决和伟大领袖保持同一观点。</p>
+<p>前段时间我们叫着要拒绝被商品化，因为商品是冷冰冰的，可替换的，评价方式单一的工具而已。但是人类的情感太丰富，简单粗暴的商品化评价和用应试教育的成绩评价教育的效果一样荒唐。</p>
+<p>那又怎样？说到底，拒绝被商品化只是理想的状态而已，不可否认的实际情况是，在当前的社会中，商品化才是一张能随意换乘而不受限的车票。</p>
+<p> </p>
+<p>前段时间我在微博上看到一段话：（教女性如何写作）这种班怎么赚得到钱？<strong>赚女人的钱主要就是教她们如何打扮得美，嫁入豪门，这才是刚需，才拉得到风投。</strong></p>
+<p>我一句反驳都说不出口了。</p>
+<p>可能前几个月的我还能驳两句，现在驳不动。受的教训够多，总会有些认命。主流文化中，女性长期以来都被认为是附属品，是需要取悦他人的存在。这一点和女性自身是否有工作，是否经济独立，甚至一点关系都没有。不管 opinion 如何，fact 始终没变。我当然可以说自己不是主流，但是改变不了当前的状况。</p>
+<p>于是我只能说：对啊，赚女人的钱，就是不断地编星座的段子故事，十二星座先一个一个单独拎出来讲，十二星座两两配对能配出 72 种，每一种配对又可以写点故事，写完配对星座故事，我们还可以写三个人的《处女座、天秤座和金牛座斗地主会发生什么？》，十二选三写完以后继续写《水火风土四种星座打麻将，东风到底在谁家？》，五个人的写《abcde 五个星座在一起 lol 开黑谁先完成五杀？》</p>
+<p>我觉得这无聊，我不喜欢，可是能来钱啊。</p>
+<p>就像各种女人必读的十本书里一定有张爱玲和《小王子》，动不动就说「女人，一定要活得精致，一定要爱自己」；提到印象深刻的古诗词必然提到「十年生死两茫茫」和「庭有枇杷树」，如果是现代的就一定要提朱生豪的「醒来觉得甚是爱你」；一说民国才女就要手撕林徽因，撕完林徽因再夸一遍张幼仪；说到动画一定要说宫崎骏，列举宫崎骏的作品里还乱入了高畑勋的《萤火虫之墓》。</p>
+<p>然而这些东西并没有卵用。不在此处看到，在其他地方也一定看得到一模一样的书单电影清单和诗词佳句（假装存在的）赏析。但是有什么用呢，大家喜欢看，流量就到了。</p>
+<p>这样一想，是不是觉得套路确实有成为套路的原因？反正「照这么做」就有钱，不管是不是原创，不管质量高不高，不管无不无聊。</p>
+<p> </p>
+<p>所以我最近特别想有钱。</p>
+<p>有钱就可以去想去的地方而不需要考虑机票会不会太贵。</p>
+<p>有钱就可以不用担心晚饭吃过以后银行卡里的余额够不够付下个月的房租。</p>
+<p>有钱就可以拿钱砸爱豆，砸喜欢的作家，砸喜欢的音乐和喜欢的设计，然后告诉他们不需要屈服于其他人的喜好博人眼球，我来砸钱就行。</p>
+<p>当然，这些都是脑子里开个小剧场，偶尔幻想一下。</p>
+<p>说回插花。</p>
+<p>既然插花还算有市场，我妈喜欢，不怕被外力碾压了。那就随她去吧。不如插花，工作买房都不如插花。</p>
+<p>另，今天的晚饭是方便面，吃完还是担心了一下银行卡余额；虽然泰坦尼克号沉了，但是我不后悔拿到船票。</p>
+]]></description>
 </item>
 <item>
     <title>当我们被问到Where are you from</title>
@@ -59,7 +491,49 @@
     <pubDate>Thu, 30 Mar 2017 09:00:00 -0800</pubDate>
     <author>括弧</author>
     <guid>https://kuohu233.github.io/posts/2017-03-30where_are_you_from/</guid>
-    <description><![CDATA[早起忽然想到这个问题。 当被人问到 “Where are you from?”的时候，我们该怎么回答？ “China.” 这是标准教科书的回答。 很长一段时间，我也]]></description>
+    <description><![CDATA[<p>早起忽然想到这个问题。</p>
+<p>当被人问到 “Where are you from?”的时候，我们该怎么回答？</p>
+<p>“China.” 这是标准教科书的回答。</p>
+<p>很长一段时间，我也是这么回答别人的。直到后来有人问我 “Which part of China?”</p>
+<p>我下意识地说 “Chonqing.”</p>
+<p>「Chongqing是哪里？」</p>
+<p>「大概在中国地图的中部。」</p>
+<p>然后对方一脸失意。</p>
+<hr>
+<p>后来我才知道这么说的几个问题。</p>
+<ol>
+<li>
+<p>人家不知道「中部」是哪里，当然，我说「西南地区」那估计大家更懵。能知道北京和上海在哪里就不错了，再来个广东和香港，差不多就这几个地方。中部？哪个中部？如果说，「离沿海地区很远，靠近西藏」的话，人家估计还要问「西藏在哪里？」</p>
+</li>
+<li>
+<p>Chongqing，这个词，在英文里，很像模仿中国人发音的骂人的话。
+所以我后来说的是 “Szechuan.” 方便，读音没问题，不少移民知道四川在哪里，移民那会儿重庆还没直辖，人口比较多，应该算大省，好记！而且食物特色鲜明！</p>
+</li>
+</ol>
+<p>「哦，所以你很喜欢辣的咯？」听到我说自己来自四川以后，难得有人这么问我。</p>
+<p>「是啊。」</p>
+<p>「那你喜欢xx台湾火锅吗？」</p>
+<p>「&hellip;」</p>
+<hr>
+<p>再后来，我甚至不用说Szechuan，China也不用说了。</p>
+<p>在佛罗里达的时候，也有人问我 “Where are you from.”</p>
+<p>“China.”</p>
+<p>「啊那你这趟旅行很长啊！这么远！」</p>
+<p>我忽然意识到对方的意思不是「你家乡在哪里？」而是「你从哪里过来的？」</p>
+<p>我马上改口说自己刚从加州飞过来。对方才恢复了正常表情。</p>
+<p>在迈阿密，在波多黎各和纽约，我说我从加州来，在西雅图和洛杉矶，我说我从戴维斯来。</p>
+<p>「戴维斯在哪里？」</p>
+<p>「靠近萨克拉门托/旧金山的一个大农村。」</p>
+<p>这样对方大概就知道个方位。但是也就只是个方位，大家没空问村里几只羊驼，偶尔说下加州天气很好，硅谷很厉害，没了。</p>
+<p>没人再问我是从China的那个地方来的。</p>
+<hr>
+<p>这样的话说多了我都有种Davis是我第二故乡的感觉，甚至说，我都没觉得 “I‘m from San Francisco.” 有什么问题，虽然我去旧金山的次数并不多。</p>
+<p>我可以来自旧金山，可以来自戴维斯，可以是加州，可以是中国，重庆，北碚，四川，说任何一个地方，都没问题。可是我好像更想说：我之前在中国哪儿哪儿待过很长时间，在加州哪儿哪儿待过很长时间，我没办法说我最喜欢哪里或者我从某个地方来，但是我可以从这所有地方来。</p>
+<p>「故乡」之于中国人，多是某个单一固定的地点。而到了四处流浪的一代人，故乡就再也不可能仅限于某一处了。</p>
+<p>在重庆，我说普通话，不像个重庆人。在美国，我割舍不下中文，既不能「融入」，也不想「融入」美国。而我的属性也被太平洋撕裂，一半在重庆，一半在戴维斯。</p>
+<p>这种文化的撕裂感并不只是我独有的，而是所有留学生所必须面对的情况。</p>
+<p>即使过了多少年，被问到 “Where are you from?” 的时候，都会有一刹那的犹豫，再也不能肯定地说出来故乡的名字。那就是了。</p>
+]]></description>
 </item>
 </channel>
 </rss>
