@@ -4,7 +4,21 @@
         <link>https://kuohu233.github.io/posts/</link>
         <description>All Posts | 扌舌弓瓜</description>
         <content:encoded></content:encoded>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 28 Jul 2023 09:00:00 -0800</lastBuildDate><atom:link href="https://kuohu233.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 29 Sep 2023 09:00:00 -0800</lastBuildDate><atom:link href="https://kuohu233.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>等我找到工作就去做这些</title>
+    <link>https://kuohu233.github.io/posts/2023-09-29todo-list/</link>
+    <pubDate>Fri, 29 Sep 2023 09:00:00 -0800</pubDate>
+    <author>括弧</author>
+    <guid>https://kuohu233.github.io/posts/2023-09-29todo-list/</guid>
+    <description><![CDATA[<ol>
+<li>去夏威夷学自由潜。听说水质和教练水平一样好，刚好我也想去看看风景。</li>
+<li>看 watch list 里的书。</li>
+<li>染粉色头发。</li>
+<li></li>
+</ol>
+]]></description>
+</item>
+<item>
     <title>面试准备和相关学习</title>
     <link>https://kuohu233.github.io/posts/2023-07-29system_design/</link>
     <pubDate>Fri, 28 Jul 2023 09:00:00 -0800</pubDate>
@@ -19,7 +33,7 @@
 <h3 id="system-design-基础怎么补">System Design 基础怎么补</h3>
 <ul>
 <li>
-<p>找到我曾经用过的工具和他们的竞品，了解各自特点（比如数据库中的 RedShift, MongoDB 和 BigQuery）。</p>
+<p>找到我曾经用过的工具和他们的竞品，了解各自特点（比如数据库中的 RedShift, MongoDB 和 BigQuery，再比如Hadoop 和 Spark）。</p>
 </li>
 <li>
 <p>看 job description 时，如果看到没有用过的工具，就去看 Demo 和 Tutorial （比如 Terraform）。</p>
@@ -43,7 +57,7 @@
 <p><a href="https://github.com/bregman-arie/devops-exercises" target="_blank" rel="noopener noreffer ">DevOps Exercises</a> 有大量相关的题目</p>
 </li>
 <li>
-<p><a href="https://blog.bytebytego.com/" target="_blank" rel="noopener noreffer ">Alex Xu</a> 的博客，可以免费订阅他的 newsletter。</p>
+<p><a href="https://blog.bytebytego.com/" target="_blank" rel="noopener noreffer ">Alex Xu</a> 的博客，可以免费订阅他的 newsletter。Alex Xu 的 System Design 这本书也可以看看。</p>
 </li>
 <li>
 <p><a href="https://www.theseattledataguy.com/data-science-consulting-blog/#page-content" target="_blank" rel="noopener noreffer ">Seattle Data Guy</a> 的博客。</p>
@@ -68,7 +82,7 @@
 <p>Streaming data 可能遇到的问题和怎么处理（参考 YouTube）。</p>
 </li>
 <li>
-<p>（我个人觉得） LeetCode Discussion 有比一亩三分地更多更有效的面试经验分享。</p>
+<p><a href="https://www.confluent.io/blog/how-kafka-is-used-by-netflix/" target="_blank" rel="noopener noreffer ">Confluent - Kafka in Netflix Studio</a> 这篇博客简单说明 Netflix 怎么使用 Kafka。如果不了解 Kafka，可以看看<a href="https://developer.confluent.io/courses/#fundamentals" target="_blank" rel="noopener noreffer ">这里的资源</a>。</p>
 </li>
 <li>
 <p>Taylor Swift 演唱会的抢票系统应给怎么设计，才能保证不管从欧洲还是北美抢票都不会被延迟打乱顺序？</p>
@@ -82,14 +96,22 @@
 </ul>
 </blockquote>
 <p> </p>
-<h3 id="tbc">TBC</h3>
+<h3 id="其他">其他</h3>
+<ul>
+<li>
+<p><a href="https://iamtrask.github.io/" target="_blank" rel="noopener noreffer ">I am trask博客</a>其中讲到过<a href="https://iamtrask.github.io/2015/07/27/python-network-part2/" target="_blank" rel="noopener noreffer ">Gradient Descent的详解</a>。</p>
+</li>
+<li>
+<p>（我个人觉得） LeetCode Discussion 有比一亩三分地更多更有效的面试经验分享。</p>
+</li>
+</ul>
 ]]></description>
 </item>
 <item>
     <title>Web Development Process</title>
     <link>https://kuohu233.github.io/posts/2023-07-18first_post/</link>
     <pubDate>Tue, 18 Jul 2023 09:00:00 -0800</pubDate>
-    <author>Test</author>
+    <author>括弧</author>
     <guid>https://kuohu233.github.io/posts/2023-07-18first_post/</guid>
     <description><![CDATA[<h3 id="main-reference">Main Reference</h3>
 <p>感谢<a href="https://blog.douchi.space/blog-migrate-wordpress-hugo/#gsc.tab=0" target="_blank" rel="noopener noreffer ">椒盐豆豉的教程</a></p>
@@ -122,7 +144,7 @@
 </ul>
 </li>
 <li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Google Analytics.</li>
-<li><i class="far fa-square fa-fw" aria-hidden="true"></i> RSS description shows full context.</li>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> RSS description shows full context.</li>
 </ul>
 ]]></description>
 </item>
