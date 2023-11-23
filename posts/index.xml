@@ -114,7 +114,7 @@
 <p><a href="https://missing-semester-cn.github.io/" target="_blank" rel="noopener noreffer ">计算机教育中缺失的一课</a></p>
 </li>
 <li>
-<p><a href="https://github.com/bregman-arie/devops-exercises" target="_blank" rel="noopener noreffer ">DevOps Exercises</a> 有大量相关的题目</p>
+<p><a href="https://github.com/bregman-arie/devops-exercises" target="_blank" rel="noopener noreffer ">DevOps Exercises</a> 有大量相关的题目。</p>
 </li>
 <li>
 <p><a href="https://blog.bytebytego.com/" target="_blank" rel="noopener noreffer ">Alex Xu</a> 的博客，可以免费订阅他的 newsletter。Alex Xu 的 System Design 这本书也可以看看。</p>
@@ -127,13 +127,31 @@
 <h3 id="具体的案例">具体的案例</h3>
 <ul>
 <li>
-<p>NEU CS 教授的 Medium 博客，可以免费阅读 <a href="https://medium.com/@i.gorton">https://medium.com/@i.gorton</a></p>
+<p>Data Engineer 如何保证 Privacy Concern <a href="https://medium.com/quantumblack/protecting-sensitive-data-in-analytics-a-data-engineering-perspective-c0ab95cd32cc" target="_blank" rel="noopener noreffer ">数据安全</a>。这里提到几个点:</p>
+<ol>
+<li>Data Suppression，直接删除关键信息列；</li>
+<li>Data Tokenization，把敏感信息换成不那么敏感的可公开信息；</li>
+<li>Encryption，加密；
+4.Data Generalisation，比如把具体的个体数据用整体的数据分布表示。</li>
+</ol>
+</li>
+<li>
+<p>Data Engineer 如何保证 Data Quality <a href="https://airbyte.com/data-engineering-resources/data-quality" target="_blank" rel="noopener noreffer ">数据质量</a>:</p>
+<ol>
+<li>Data Profiling</li>
+<li>Data Auditing</li>
+<li>Data Validation</li>
+<li>Data Cleaning</li>
+</ol>
+</li>
+<li>
+<p>NEU CS 教授的 Ian Gorton 的 Medium <a href="https://medium.com/@i.gorton" target="_blank" rel="noopener noreffer ">博客</a>，可以免费阅读。</p>
 </li>
 <li>
 <p>LeetCode Cookbook 分享各类解题思路 <a href="https://books.halfrost.com/leetcode/ChapterOne/">https://books.halfrost.com/leetcode/ChapterOne/</a></p>
 </li>
 <li>
-<p>Facebook 在 2019 年的文章提到过 Scribe 如何处理每小时 petabytes 级别的日志数据 <a href="https://engineering.fb.com/2019/10/07/data-infrastructure/scribe/">https://engineering.fb.com/2019/10/07/data-infrastructure/scribe/</a></p>
+<p>Facebook 在 2019 年的文章提到过 Scribe 如何处理<a href="https://engineering.fb.com/2019/10/07/data-infrastructure/scribe/" target="_blank" rel="noopener noreffer ">每小时 petabytes 级别的日志数据</a></p>
 </li>
 <li>
 <p><a href="https://prepfully.com/interview-guides/apple-data-engineer" target="_blank" rel="noopener noreffer ">参考这个网站的问题</a> 比如 Redshift 和 Spark 的优缺点一类的。</p>
