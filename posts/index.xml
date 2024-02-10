@@ -11,6 +11,15 @@
     <author>括弧</author>
     <guid>https://kuohu233.github.io/posts/2019-11-29questions/</guid>
     <description><![CDATA[<p>以下思考过的问题按最近出现时间排序。</p>
+<h3 id="2024-01-26">2024-01-26</h3>
+<ul>
+<li>
+<p>玩收纳小游戏的人是在三次元没有家务可以做了吗？</p>
+</li>
+<li>
+<p>做不喜欢的工作和找不喜欢的人结婚，哪个更痛苦？</p>
+</li>
+</ul>
 <h3 id="2023-09-15">2023-09-15</h3>
 <ul>
 <li>
@@ -247,15 +256,15 @@ a和b哪里更适合年轻人生活？</p>
 </li>
 <li>
 <p>Art Toolkit的名片水彩盘。</p>
-<p>特别适合想尝试Urban Sketching的朋友们，可以买平替或者自己手工做一个相思的水彩盘。用得开心的点在于：</p>
+<p>特别适合想尝试Urban Sketching的朋友们，可以买平替或者自己手工做一个相似的水彩盘。用得开心的点在于：</p>
 <ul>
 <li>扁平且小，比手机小一半左右，可以随身携带。</li>
 <li>磁铁底座吸附所有金属水彩格子，无论怎么乱扔水彩都不会掉出来。</li>
 <li>小格子容量0.5毫升，12种颜色和调色区域足够应付任何中短途旅行和速写。</li>
 </ul>
-<p><figure><a class="lightgallery" href="https://shop.travelerscompanyusa.com/cdn/shop/files/ARTK005_6_1000x1000_595688c8-4b9c-466a-afb2-31d8745c231a_1024x1024.jpg?v=1698108037" title="Travler&amp;rsquo;s Notebook与Art Toolkit联名款" data-thumbnail="https://shop.travelerscompanyusa.com/cdn/shop/files/ARTK005_6_1000x1000_595688c8-4b9c-466a-afb2-31d8745c231a_1024x1024.jpg?v=1698108037" data-sub-html="<h2>▲ </h2><p>Travler&amp;rsquo;s Notebook与Art Toolkit联名款</p>">
+<p><figure><a class="lightgallery" href="https://shop.travelerscompanyusa.com/cdn/shop/files/ARTK005_6_1000x1000_595688c8-4b9c-466a-afb2-31d8745c231a_1024x1024.jpg?v=1698108037" title="Travler&amp;rsquo;s Notebook与Art Toolkit联名款" data-thumbnail="https://shop.travelerscompanyusa.com/cdn/shop/files/ARTK005_6_1000x1000_595688c8-4b9c-466a-afb2-31d8745c231a_1024x1024.jpg?v=1698108037" data-sub-html="<h2> </h2><p>Travler&amp;rsquo;s Notebook与Art Toolkit联名款</p>">
         
-    </a><figcaption class="image-caption">▲ </figcaption>
+    </a><figcaption class="image-caption"> </figcaption>
     </figure></p>
 </li>
 <li>
@@ -304,7 +313,7 @@ a和b哪里更适合年轻人生活？</p>
 <ol>
 <li>
 <p>American Eagle的染色裤子。</p>
-<p>染得我这辈子都不需要买钢笔墨水了。</p>
+<p>清洗时疯狂掉色，洗衣服的水让我觉得这辈子都不需要买钢笔墨水了。</p>
 </li>
 <li>
 <p>钢鲨鱼夹。</p>
@@ -481,10 +490,10 @@ a和b哪里更适合年轻人生活？</p>
 <li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Content in post works.</li>
 <li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Avatar to &lsquo;/about&rsquo;.</li>
 <li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Font and size adjustment.</li>
-<li><i class="far fa-square fa-fw" aria-hidden="true"></i> Comments feature. Isso, Utterances or Giscus?
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Comments feature. Isso, Utterances or Giscus?
 <ul>
-<li><i class="far fa-square fa-fw" aria-hidden="true"></i> Utterances.<a href="https://robb.sh/posts/add-utterances-comments-to-hugo/" target="_blank" rel="noopener noreffer ">How to add blog with Utterances comments</a></li>
-<li><i class="far fa-square fa-fw" aria-hidden="true"></i> Hugo Templates.</li>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Utterances.<a href="https://robb.sh/posts/add-utterances-comments-to-hugo/" target="_blank" rel="noopener noreffer ">How to add blog with Utterances comments</a></li>
+<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Hugo Templates.</li>
 </ul>
 </li>
 <li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Video.</li>
