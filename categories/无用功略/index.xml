@@ -168,6 +168,9 @@
 </ol>
 </li>
 <li>
+<p>Vamei的<a href="https://www.cnblogs.com/vamei/archive/2012/12/05/2802811.html" target="_blank" rel="noopener noreffer ">协议森林</a>简单讲解各类协议的功能和作用。</p>
+</li>
+<li>
 <p>美团的<a href="https://tech.meituan.com/2023/08/24/ab-test-practice-in-meituan.html" target="_blank" rel="noopener noreffer ">A/B Testing方案</a></p>
 </li>
 <li>
@@ -183,17 +186,26 @@
 <p>NEU CS 教授的 Ian Gorton 的 Medium <a href="https://medium.com/@i.gorton" target="_blank" rel="noopener noreffer ">博客</a>，可以免费阅读。</p>
 </li>
 <li>
-<p>LeetCode Cookbook 分享各类解题思路 <a href="https://books.halfrost.com/leetcode/ChapterOne/">https://books.halfrost.com/leetcode/ChapterOne/</a></p>
-</li>
-<li>
 <p>Streaming data 可能遇到的问题和怎么处理（参考 YouTube）。</p>
 </li>
 <li>
 <p>Taylor Swift 演唱会的抢票系统应给怎么设计，才能保证不管从欧洲还是北美抢票都不会被延迟打乱顺序？</p>
 </li>
 </ul>
+<p> </p>
+<h3 id="刷题">刷题</h3>
+<ul>
+<li>
+<p>LeetCode刷题顺序可以参考<a href="https://neetcode.io/roadmap" target="_blank" rel="noopener noreffer ">Neetcode Roadmap</a>.</p>
+</li>
+<li>
+<p>LeetCode Cookbook 分享各类解题思路 <a href="https://books.halfrost.com/leetcode/ChapterOne/">https://books.halfrost.com/leetcode/ChapterOne/</a></p>
+</li>
+</ul>
+<p> </p>
+<h3 id="machine-learning">Machine Learning</h3>
+<p>以下是曾经遇到过关于Machine Learning的思考题：</p>
 <blockquote>
-<p>以下问题偏向 ML</p>
 <ul>
 <li>如何从一个人的手机地理位置数据看出来这个人是在汽车上还是在火车上？</li>
 <li>如果有两个人两部手机，都在同一辆轿车上，拿到手机的数据之后怎么判断谁是司机谁不是？</li>
