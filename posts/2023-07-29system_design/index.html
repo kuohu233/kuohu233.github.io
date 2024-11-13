@@ -53,7 +53,7 @@ if (!doNotTrack) {
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/kuohu233.github.io\/posts\/2023-07-29system_design\/"
-        },"genre": "posts","wordcount":  1072 ,
+        },"genre": "posts","wordcount":  1345 ,
         "url": "https:\/\/kuohu233.github.io\/posts\/2023-07-29system_design\/","datePublished": "2023-07-28T09:00:00-08:00","dateModified": "2023-08-07T09:00:00-08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -127,7 +127,7 @@ if (!doNotTrack) {
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">面试准备和相关学习</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>括弧</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E6%97%A0%E7%94%A8%E5%8A%9F%E7%95%A5/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>无用功略</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-28">2023-07-28</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1072 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-28">2023-07-28</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1345 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -152,7 +152,7 @@ if (!doNotTrack) {
 <p>面向 Data Engineer 求职。</p>
 <p>在学校学过基本的 ML, R, 算法和数据库，能写代码能做题，做过一些简单的项目和实习。</p>
 <p>但对于产品应该怎么设计，为什么要用某件工具，用了这些工具/方法有什么好处，是不太了解的。</p>
-<p>鉴于前一次面试失败，面试官给的评价是「没用过 Jenkins，不懂 CI/CD」「没用过 Lambda」，我打算开始补课，了解 System Design。</p>
+<p>鉴于前一次面试失败，面试官给的评价是「没用过 Jenkins，不懂 CI/CD」「没用过 Lambda」，我开始了解 System Design。</p>
 <p> </p>
 <h3 id="system-design-基础怎么补">System Design 基础怎么补</h3>
 <ul>
@@ -209,6 +209,26 @@ if (!doNotTrack) {
 </ol>
 </li>
 <li>
+<p>Database Capacity Planning:</p>
+<ol>
+<li>预估CPU需求</li>
+<li>预估数据量</li>
+<li>预估响应时间，延迟</li>
+</ol>
+</li>
+<li>
+<p>SQL优化常见手段之<a href="https://www.codecademy.com/article/sql-indexes" target="_blank" rel="noopener noreffer ">indexing</a>。</p>
+</li>
+<li>
+<p>MySQL Cluster搭建和应用。</p>
+</li>
+<li>
+<p>Grafana Alloy如何监控数据库状态。</p>
+</li>
+<li>
+<p><a href="https://codemia.io/system-design" target="_blank" rel="noopener noreffer ">System Design Questions</a>有部分经典system design问题和答案可以参考。</p>
+</li>
+<li>
 <p>Vamei的<a href="https://www.cnblogs.com/vamei/archive/2012/12/05/2802811.html" target="_blank" rel="noopener noreffer ">协议森林</a>简单讲解各类协议的功能和作用。</p>
 </li>
 <li>
@@ -252,6 +272,17 @@ if (!doNotTrack) {
 <li>如果有两个人两部手机，都在同一辆轿车上，拿到手机的数据之后怎么判断谁是司机谁不是？</li>
 </ul>
 </blockquote>
+<ul>
+<li>
+<p>做MLE的同学推荐的<a href="https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/" target="_blank" rel="noopener noreffer ">Monitoring Machine Learning Model in Production</a></p>
+</li>
+<li>
+<p>Kaggle每周有30个小时的<a href="https://blog.csun.site/2024/05/04/%E7%99%BD%E5%AB%96%20Kaggle%20%E9%83%A8%E7%BD%B2%20stable-diffusion/" target="_blank" rel="noopener noreffer ">免费GPU资源</a>，可以合理利用。</p>
+</li>
+<li>
+<p>Yuan Meng的MLE<a href="https://www.yuan-meng.com/posts/mle_interviews/" target="_blank" rel="noopener noreffer ">找工笔记</a>，包括MLE需要的详细技能，</p>
+</li>
+</ul>
 <p> </p>
 <h3 id="其他">其他</h3>
 <ul>
@@ -262,7 +293,13 @@ if (!doNotTrack) {
 <p>（我个人觉得） LeetCode Discussion 有比一亩三分地更多更有效的面试经验分享。</p>
 </li>
 <li>
+<p>Linux操作建议直接开一台AWS EC2服务器看看。<a href="https://luffy.cc/linux-hardlink-softlink" target="_blank" rel="noopener noreffer ">Linux文件系统，软链接与硬链接看这里</a></p>
+</li>
+<li>
 <p>根据自己的需求在 Udemy 找合适的课程，可以找coupon和打折季低价购入。我上了 <a href="https://www.udemy.com/course/spark-and-python-for-big-data-with-pyspark/" target="_blank" rel="noopener noreffer ">Spark</a>, <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank" rel="noopener noreffer ">Web Development</a> 和 <a href="https://www.udemy.com/course/deeplearning/" target="_blank" rel="noopener noreffer ">Deep Learning</a> 相关的课。</p>
+</li>
+<li>
+<p>Behavioral Questions准备参考Behavioral Interviews for Software Engineers一书。</p>
 </li>
 </ul>
 </div><div class="post-footer" id="post-footer">

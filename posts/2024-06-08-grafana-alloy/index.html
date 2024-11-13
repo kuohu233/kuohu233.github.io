@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>用Grafana Alloy监控MySQL数据库 - 扌舌弓瓜</title><meta name="Description" content="Grafana Alloy监控本地MySQL数据库，安装，配置等等步骤"><meta property="og:title" content="用Grafana Alloy监控MySQL数据库" />
+<meta property="og:description" content="Grafana Alloy监控本地MySQL数据库，安装，配置等等步骤" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kuohu233.github.io/posts/2024-06-08-grafana-alloy/" /><meta property="og:image" content="https://kuohu233.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-06-09T09:00:00-08:00" />
+<meta property="article:modified_time" content="2024-11-09T09:00:00-08:00" /><meta property="og:site_name" content="扌舌弓瓜" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://kuohu233.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="用Grafana Alloy监控MySQL数据库"/>
+<meta name="twitter:description" content="Grafana Alloy监控本地MySQL数据库，安装，配置等等步骤"/>
+<meta name="application-name" content="扌舌弓瓜">
+<meta name="apple-mobile-web-app-title" content="扌舌弓瓜"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://kuohu233.github.io/posts/2024-06-08-grafana-alloy/" /><link rel="prev" href="https://kuohu233.github.io/posts/2019-11-29questions/" /><link rel="next" href="https://kuohu233.github.io/posts/2024-07-20job_searching_tools/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYJ1YK7SP5"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-RYJ1YK7SP5', { 'anonymize_ip': false });
+}
+</script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-RYJ1YK7SP5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "用Grafana Alloy监控MySQL数据库",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/kuohu233.github.io\/posts\/2024-06-08-grafana-alloy\/"
+        },"genre": "posts","wordcount":  693 ,
+        "url": "https:\/\/kuohu233.github.io\/posts\/2024-06-08-grafana-alloy\/","datePublished": "2024-06-09T09:00:00-08:00","dateModified": "2024-11-09T09:00:00-08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "括弧"
+            },"description": "Grafana Alloy监控本地MySQL数据库，安装，配置等等步骤"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="扌舌弓瓜"><span class="header-title-pre"><i class='fa-solid fa-pen-nib' aria-hidden='true'></i></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 博客 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/about/"> 咳咳 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="扌舌弓瓜"><span class="header-title-pre"><i class='fa-solid fa-pen-nib' aria-hidden='true'></i></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">博客</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/about/" title="">咳咳</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">用Grafana Alloy监控MySQL数据库</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>括弧</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E6%97%A0%E7%94%A8%E5%8A%9F%E7%95%A5/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>无用功略</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-06-09">2024-06-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;693 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#前置要求">前置要求</a></li>
+        <li><a href="#配置流程">配置流程</a></li>
+        <li><a href="#windows配置文件">Windows配置文件</a></li>
+        <li><a href="#dashboard基本看点">Dashboard基本看点</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h3 id="前置要求">前置要求</h3>
+<ol>
+<li>安装MySQL和Grafana Alloy
+<ul>
+<li>确保版本：MySQL &gt;= 5.6，MariaDB &gt;= 10.2</li>
+</ul>
+</li>
+<li>注册Grafana Cloud账号和API Keys</li>
+</ol>
+<h3 id="配置流程">配置流程</h3>
+<p>在Grafana账号中新建一个Grafana Cloud stack，并在cloud stack中添加对应连接。比如这里我们用MySQL作为数据源。</p>
+<data id="id-1" data-raw></data>
+<p>接下来选择对应的平台，OS，调整配置文件即可。
+值得注意的是，Windows中配置文件的细节与官方指导略有不同。</p>
+<h3 id="windows配置文件">Windows配置文件</h3>
+<ul>
+<li>
+<p>配置文件路径为<code>%PROGRAMFILES%\GrafanaLabs\Alloy\config.alloy</code></p>
+</li>
+<li>
+<p><code>prometheus.remote_write &quot;metrics_service&quot;</code>和<code>loki.write &quot;grafana_cloud_loki&quot; </code>都包含<code>basic_auth</code>这个版块。</p>
+<ul>
+<li><code>basic_auth</code>包含<code>username</code>和<code>password</code></li>
+</ul>
+</li>
+<li>
+<p><code>prometheus.exporter.mysql &quot;integrations_mysqld_exporter&quot; </code>的<code>data_source_name</code>为<code>&quot;&lt;user&gt;:mysql@(&lt;ip&gt;:3306)/&quot;</code>，比如<code>&quot;root:mysql@(localhost:3306)/&quot;</code></p>
+</li>
+<li>
+<p><code>local.file_match &quot;logs_integrations_mysql&quot;</code>中的<code>__path__</code>修改为MySQL的log file路径。</p>
+</li>
+</ul>
+<p>完成配置文件后可以测试连通，连通成功则可以快速创建dashboard。</p>
+<h3 id="dashboard基本看点">Dashboard基本看点</h3>
+<p>Dashboard会一键生成基础数据库监控面板，包括且不限于QPS数量，内存用量，连接线程数，锁，以及最重要的，是否有心跳。</p>
+<p>Alert和监控告警可以增加自定义指标。</p>
+<p>Oncall部分可以添加告警联系方式，方便快速通知到管理。</p>
+<div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw" aria-hidden="true"></i>参考资料：<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ol>
+<li>参考<a href="https://grafana.com/docs/grafana-cloud/monitor-infrastructure/integrations/integration-reference/integration-mysql/" target="_blank" rel="noopener noreffer ">Grafana Alloy Doc</a></li>
+</ol>
+</div>
+        </div>
+    </div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-11-09</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/2019-11-29questions/" class="prev" rel="prev" title="十万个人生难题"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>十万个人生难题</a>
+            <a href="/posts/2024-07-20job_searching_tools/" class="next" rel="next" title="裁员浪潮下的北美找工小技巧">裁员浪潮下的北美找工小技巧<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments">
+        <script src="https://utteranc.es/client.js"
+            repo="kuohu233/kuohu233.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+        </script></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">感谢空调酒精和Wi-fi的大力支持</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2013 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"data":{"id-1":"\r\n\u003cimg src=\"grafana_connection.png\" alt=\"Grafana cloud service - add a connection\" style=\"padding: 10px;\"/\u003e\r\n"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"","algoliaIndex":"","algoliaSearchKey":"","highlightTag":"em","maxResultLength":20,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"},"twemoji":true};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
