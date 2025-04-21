@@ -11,15 +11,16 @@
     <author>括弧</author>
     <guid>https://kuohu233.github.io/posts/2024-07-20job_searching_tools/</guid>
     <description><![CDATA[<p>最近找到一份满意的工作，接下来一段时间暂时不再找工作了。分享一些近期找工用过和看到过的小技巧。</p>
-<p>我是 2023 年毕业的研究生，非 CS 专业，非名校，拿着需要 sponsorship 的 F-1 学生签证。读研之前有3年略微相关的工作经验，本科专业和研究生完全无关，所以也算是转码转 data 的非科班新人。</p>
+<p>Background: 2023 年毕业的研究生，非 CS 专业，非名校，拿着需要 sponsorship 的 F-1 学生签证。读研之前有3年略微相关的工作经验，本科专业和研究生完全无关，所以也算是转码转 data 的非科班新人。</p>
 <h3 id="简历修改">简历修改</h3>
 <p><strong><a href="https://www.vmock.com/" target="_blank" rel="noopener noreffer ">VMock</a></strong></p>
-<p>把简历扔进去可以自动获得一些参考。值得一提的是，这个网站可以看到ATS简历筛选标准，大部分的简历在ATS筛选下不会被任何人看到，能通过机筛的简历则会有效提高面试几率。</p>
+<p>把简历扔进去可以自动获得一些参考。</p>
+<p>值得一提的是，这个网站可以看到ATS简历筛选标准，大部分的简历在ATS筛选下不会被任何人看到，能通过机筛的简历则会有效提高面试几率。</p>
 <p><strong>ChatGPT</strong></p>
 <p>用于修改文案。尤其是 cover letter 和请人内推写第三人称推荐语等需要大量文字的地方，ChatGPT的文字风格再有AI味儿，也比语言不熟的外国学生自己瞎写的好。</p>
 <p>ChatGPT 的另外一个用法是问它一份 job description 的重点在哪里，面试可能会出什么题。</p>
 <p><strong><a href="https://www.fiverr.com/?source=top_nav" target="_blank" rel="noopener noreffer ">Fiverr</a></strong></p>
-<p>在这里可以花钱找人帮忙修改简历。</p>
+<p>在这里可以花钱找人帮忙修改简历。推荐找有对口5-10年工作经验、有面试经验的人来修改。</p>
 <h3 id="哪里找工作">哪里找工作</h3>
 <ul>
 <li>
@@ -36,15 +37,15 @@
 </li>
 </ul>
 <h3 id="怎么投简历">怎么投简历</h3>
-<p><strong>插件 <a href="" rel="">Simiplify</a> 一键填表</strong></p>
-<p>这是 Edge 和 Chrome 都可以使用的网页插件。在 Simplify 中保存自己的基本信息和简历后，遇到常见的申请网站和模板（比如 Workday, Greenhouse, Lever）可以一键投递，不需要自己单独修改每一项。</p>
+<p><strong>插件 <a href="https://simplify.jobs/" target="_blank" rel="noopener noreffer ">Simiplify</a> 一键填表</strong></p>
+<p>这是 Chrome 网页插件。在 Simplify 中保存自己的基本信息和简历后，遇到常见的申请网站和模板（比如 Workday, Greenhouse, Lever）可以一键投递，不需要自己单独修改每一项。</p>
 <p><strong>LastPass 账户密码管理器</strong></p>
-<p>用于管理各个网站的密码。在这里可以放Workday的相关账号。</p>
+<p>用于管理各个网站的密码。在这里可以放 Workday 的相关账号。</p>
 <p><strong>Notion 记录和追踪找工情况</strong></p>
 <p>这部分用于记录 Simiplify 无法识别的申请和特意写过 cover letter 或者特别修改过简历的申请。这样以后面试时，能清楚知道面试官手里的简历是哪个版本，方便沟通。</p>
 <h3 id="networking--coffee-chat">Networking &amp; Coffee Chat</h3>
-<p>如果是大公司且 networking 的对象不是 Hiring Manager，那么就不要指望 coffee chat 和内推能起太多作用。大公司的 job posting 发出来 3 个小时就能收到几百份简历，等到 networking 几天之后，HR 面前已经有上千份简历了，一般来说即使是员工 referral 也不会起很大作用。</p>
-<p>换句话说，如果是小公司的岗位，能联系上 hiring manager 并给对方留下好印象，其实是很大的加分项。</p>
+<p>如果是小公司的岗位，能联系上 hiring manager 并给对方留下好印象，这会是很大的加分项。</p>
+<p>但是如果是大公司，且 networking 的对象不是 Hiring Manager，那么就不要指望 coffee chat 和内推能起太多作用。大公司的 job posting 发出来 3 个小时就能收到几百份简历，等到 networking 几天之后，HR 面前已经有上千份简历了，一般来说即使是员工 referral 也不会起很大作用。</p>
 <h3 id="经验不够项目来凑">经验不够项目来凑</h3>
 <p>做 project 时可以参考 <a href="https://www.visualcapitalist.com/" target="_blank" rel="noopener noreffer ">Visual Capitalist</a>，它的主题和图标都做得很有说服力。</p>
 <h3 id="我没用过也不建议使用">我没用过，也不建议使用</h3>
@@ -456,15 +457,15 @@ a和b哪里更适合年轻人生活？</p>
     <guid>https://kuohu233.github.io/posts/2023-11-05-love-like-a-flower-bouquet/</guid>
     <description><![CDATA[<p><strong>以下内容 inspired by Hayami</strong></p>
 <hr>
-<p>你们相遇在Laufey的演唱会的门口，又在Ali Wong吐槽她哈佛的骗钱老公的现场重逢。你们说，这是缘分啊。</p>
+<p>你们在Laufey的演唱会的门口相遇，又在Ali Wong吐槽她哈佛的骗钱老公的现场重逢。你们说，这是缘分啊。</p>
 <p>从来没在国内赶过集的你们，在下雨天的Farmers Market里走来走去，随手买两棵新鲜本地有机蔬菜，只是为了多聊几句话。</p>
-<p>你们不喜欢西海岸各地三俗，却又不自觉地在skyline的桥上牵手，在樱桃地里表白，滑雪之后依偎在酒店的火炉边。走遍湾区小瑞士，西雅图小九寨，你们发现三俗确实有存在的道理。</p>
+<p>你们不喜欢西海岸各地三俗，却又不自觉地在Skyline的桥上牵手，在樱桃地里表白，滑雪之后依偎在酒店的火炉边。走遍湾区小瑞士，西雅图小九寨，你们发现三俗确实有存在的道理。</p>
 <p>你们在Doctor&rsquo;s Office里点一杯叫「新冠时期的爱情」的酒，喝得半醉也不影响你们从存在主义危机谈到《百年孤独》对中国当代小说有多么重要的影响。</p>
 <p>别人为李云迪还是朗朗起争执时，你俩甩甩脑袋，买了王羽佳的票，当然你们不会承认其中很大一部分原因是因为它更便宜。</p>
 <p>Too Good To Go给了你们临期奶茶，你们用来赶临期DDL。ChatGPT除了是你们和同事的日常聊天话题，还是敷衍同事的最佳工具。</p>
 <p>你们在遇不到押井守的拉面店里畅聊赛博朋克，在Elliott Bay里假装博览群书，在梵高PPT里忘我拍照。</p>
 <p>每一座艺术馆海洋馆植物园咖啡馆里，都有你们大骂资本主义的回声。</p>
-<p>你们删掉dating app，同居，养猫，选大电视机，墙上挂满你们喜欢的摄影作品和城市地图，书柜上出现许多重复的书，周中靠外卖果腹，周末出门散步看海，如此生活3年，直到大厦崩塌。</p>
+<p>你们删掉dating app，同居，养猫，选大电视机，墙上挂满你们喜欢的摄影作品和城市地图，书柜上出现许多重复的书，周中靠外卖果腹，周末出门散步看海，如此生活三年，直到大厦崩塌。</p>
 <p> </p>
 <p>分道扬镳并不是某一个瞬间，而是一个过程。</p>
 <p>隔壁好吃的酸菜鱼馆子倒闭了，不好吃的酸菜鱼生意兴隆。</p>
@@ -472,8 +473,8 @@ a和b哪里更适合年轻人生活？</p>
 <p>加息之后你们不再考虑买房，加班让你们不再去画展，Reorg让你们身心疲惫，Slack的提示音频频响起，裁员的威胁如达摩克利斯之剑高悬于顶。</p>
 <p>RTO之后一切都变了。都怪RTO。</p>
 <p> </p>
-<p>不知道什么时候开始，同一款优衣库联名无法开启话题，互通彼此的豆瓣账号也不意味着同频的琐碎日常。</p>
-<p>你们不再一起看电影，无论是奥本海默还是芭比，都不如抖音的3分钟快乐。</p>
+<p>同一款优衣库联名无法开启话题，互通彼此的豆瓣账号也不意味着同频的琐碎日常。</p>
+<p>你们不再一起看电影，无论是奥本海默还是芭比，都不如抖音3分钟快乐。</p>
 <p>Dimitrious的新演出重要吗？Art Museum的新展出重要吗？站在520的桥头上看日落时，你们心里想着，自己看到的和对方眼里的是同样的风景吗。</p>
 <p>在一家叫深夜食堂但10点就关门的餐馆里，你们默契地安排了分居事宜，带猫的人留下，另一个人搬走。</p>
 ]]></description>
