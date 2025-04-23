@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>扌舌弓瓜</title>
-        <link>https://kuohu233.github.io/</link>
+        <link>https://kuohu.xyz/</link>
         <description>Blog transferring.</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 13 Jun 2024 08:44:34 -0800</lastBuildDate>
-            <atom:link href="https://kuohu233.github.io/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://kuohu.xyz/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>裁员浪潮下的北美找工小技巧</title>
-    <link>https://kuohu233.github.io/posts/2024-07-20job_searching_tools/</link>
+    <link>https://kuohu.xyz/posts/2024-07-20job_searching_tools/</link>
     <pubDate>Thu, 13 Jun 2024 08:44:34 -0800</pubDate>
     <author>括弧</author>
-    <guid>https://kuohu233.github.io/posts/2024-07-20job_searching_tools/</guid>
+    <guid>https://kuohu.xyz/posts/2024-07-20job_searching_tools/</guid>
     <description><![CDATA[<p>最近找到一份满意的工作，接下来一段时间暂时不再找工作了。分享一些近期找工用过和看到过的小技巧。</p>
 <p>Background: 2023 年毕业的研究生，非 CS 专业，非名校，拿着需要 sponsorship 的 F-1 学生签证。读研之前有3年略微相关的工作经验，本科专业和研究生完全无关，所以也算是转码转 data 的非科班新人。</p>
 <h3 id="简历修改">简历修改</h3>
@@ -55,10 +55,10 @@
 </item>
 <item>
     <title>用Grafana Alloy监控MySQL数据库</title>
-    <link>https://kuohu233.github.io/posts/2024-06-08-grafana-alloy/</link>
+    <link>https://kuohu.xyz/posts/2024-06-08-grafana-alloy/</link>
     <pubDate>Sun, 09 Jun 2024 09:00:00 -0800</pubDate>
     <author>括弧</author>
-    <guid>https://kuohu233.github.io/posts/2024-06-08-grafana-alloy/</guid>
+    <guid>https://kuohu.xyz/posts/2024-06-08-grafana-alloy/</guid>
     <description><![CDATA[<h3 id="前置要求">前置要求</h3>
 <ol>
 <li>安装MySQL和Grafana Alloy
@@ -110,10 +110,10 @@
 </item>
 <item>
     <title>十万个人生难题</title>
-    <link>https://kuohu233.github.io/posts/2019-11-29questions/</link>
+    <link>https://kuohu.xyz/posts/2019-11-29questions/</link>
     <pubDate>Fri, 24 Nov 2023 09:00:00 -0800</pubDate>
     <author>括弧</author>
-    <guid>https://kuohu233.github.io/posts/2019-11-29questions/</guid>
+    <guid>https://kuohu.xyz/posts/2019-11-29questions/</guid>
     <description><![CDATA[<p>以下思考过的问题按最近出现时间排序。</p>
 <h3 id="2024-11-05">2024-11-05</h3>
 <ul>
@@ -354,10 +354,10 @@ a和b哪里更适合年轻人生活？</p>
 </item>
 <item>
     <title>2023年购物成果一览</title>
-    <link>https://kuohu233.github.io/posts/2023-11-22-thanksgiving-list/</link>
+    <link>https://kuohu.xyz/posts/2023-11-22-thanksgiving-list/</link>
     <pubDate>Wed, 22 Nov 2023 09:00:00 -0800</pubDate>
     <author>括弧</author>
-    <guid>https://kuohu233.github.io/posts/2023-11-22-thanksgiving-list/</guid>
+    <guid>https://kuohu.xyz/posts/2023-11-22-thanksgiving-list/</guid>
     <description><![CDATA[<p>以下内容只包含购买的「物品」，不包含旅游、餐饮、博物馆等体验类消费。</p>
 <p> </p>
 <h2 id="十分满意">十分满意</h2>
@@ -452,10 +452,10 @@ a和b哪里更适合年轻人生活？</p>
 </item>
 <item>
     <title>花束般的恋爱，但是西海岸</title>
-    <link>https://kuohu233.github.io/posts/2023-11-05-love-like-a-flower-bouquet/</link>
+    <link>https://kuohu.xyz/posts/2023-11-05-love-like-a-flower-bouquet/</link>
     <pubDate>Sun, 05 Nov 2023 09:00:00 -0800</pubDate>
     <author>括弧</author>
-    <guid>https://kuohu233.github.io/posts/2023-11-05-love-like-a-flower-bouquet/</guid>
+    <guid>https://kuohu.xyz/posts/2023-11-05-love-like-a-flower-bouquet/</guid>
     <description><![CDATA[<p><strong>以下内容 inspired by Hayami</strong></p>
 <hr>
 <p>你们在Laufey的演唱会的门口相遇，又在Ali Wong吐槽她哈佛的骗钱老公的现场重逢。你们说，这是缘分啊。</p>
@@ -482,10 +482,10 @@ a和b哪里更适合年轻人生活？</p>
 </item>
 <item>
     <title>面试准备和相关学习</title>
-    <link>https://kuohu233.github.io/posts/2023-07-29system_design/</link>
+    <link>https://kuohu.xyz/posts/2023-07-29system_design/</link>
     <pubDate>Fri, 28 Jul 2023 09:00:00 -0800</pubDate>
     <author>括弧</author>
-    <guid>https://kuohu233.github.io/posts/2023-07-29system_design/</guid>
+    <guid>https://kuohu.xyz/posts/2023-07-29system_design/</guid>
     <description><![CDATA[<h3 id="我的情况">我的情况</h3>
 <p>面向 Data Engineer 求职。</p>
 <p>在学校学过基本的 ML, R, 算法和数据库，能写代码能做题，做过一些简单的项目和实习。</p>
@@ -644,10 +644,10 @@ a和b哪里更适合年轻人生活？</p>
 </item>
 <item>
     <title>Web Development Process</title>
-    <link>https://kuohu233.github.io/posts/2023-07-18first_post/</link>
+    <link>https://kuohu.xyz/posts/2023-07-18first_post/</link>
     <pubDate>Tue, 18 Jul 2023 09:00:00 -0800</pubDate>
     <author>括弧</author>
-    <guid>https://kuohu233.github.io/posts/2023-07-18first_post/</guid>
+    <guid>https://kuohu.xyz/posts/2023-07-18first_post/</guid>
     <description><![CDATA[<h3 id="main-reference">Main Reference</h3>
 <p>感谢<a href="https://blog.douchi.space/blog-migrate-wordpress-hugo/#gsc.tab=0" target="_blank" rel="noopener noreffer ">椒盐豆豉的教程</a></p>
 <h3 id="prerequisites">Prerequisites</h3>
@@ -686,10 +686,10 @@ a和b哪里更适合年轻人生活？</p>
 </item>
 <item>
     <title>东四环的男绿茶轶事</title>
-    <link>https://kuohu233.github.io/posts/2021-01-25nino/</link>
+    <link>https://kuohu.xyz/posts/2021-01-25nino/</link>
     <pubDate>Mon, 25 Jan 2021 09:00:00 -0800</pubDate>
     <author>括弧</author>
-    <guid>https://kuohu233.github.io/posts/2021-01-25nino/</guid>
+    <guid>https://kuohu.xyz/posts/2021-01-25nino/</guid>
     <description><![CDATA[<p>你从一开始就察觉到了。他的语言夹杂着他不明白却胡乱使用的词语，他的下巴高抬，他的格子外套笔挺，他的鞋面永远干净。他外形清爽，态度彬彬有礼，但你总觉得哪里不对。</p>
 <p>你赞同他关于女性主义的言论，也理解他的朋友圈里用于装点门面的名人合影。他的日常活动看起来永远有趣，他受邀参加电影点映，受邀录播客，自己改装camper van，与人聊天都是诗与远方，你在这些对话中听到不少陌生词汇，比如IPA，比如监视资本主义。但你总觉得，这不对劲。</p>
 <p>其他人称赞他的同时，他的同学委婉地评价他「没有根基的聪明」。</p>
@@ -723,10 +723,10 @@ a和b哪里更适合年轻人生活？</p>
 </item>
 <item>
     <title>沙县定食，椰青刺身... 总有一款高级感让你吃土</title>
-    <link>https://kuohu233.github.io/posts/2018-01-05menu_length/</link>
+    <link>https://kuohu.xyz/posts/2018-01-05menu_length/</link>
     <pubDate>Fri, 05 Jan 2018 09:00:00 -0800</pubDate>
     <author>括弧</author>
-    <guid>https://kuohu233.github.io/posts/2018-01-05menu_length/</guid>
+    <guid>https://kuohu.xyz/posts/2018-01-05menu_length/</guid>
     <description><![CDATA[<p>微博上有人点外卖，菜单上的一份椰肉，叫做「椰青刺身」。隔壁超市里的白面包不只叫白面包，它叫做「波西米亚面包」；可乐鸡翅不能只叫做可乐鸡翅，菜单上要叫那不勒斯鸡翅；王老吉也要趁着朋克养生的风，在实体店里摆上薏仁和枸杞，通过不同排列组合方式推出新产品，美其名曰现泡凉茶。</p>
 <p>100 年前的英文菜单也深谙取名的套路：即使厨师一点法语也不懂，也要在菜名中加入法语调味，借此来获得一点高级感，比如Le Crabmeat Cocktail。你知道 crabmeat，你也知道 cocktail，但是加入&quot;Le&quot;之后，你就看不懂了。而且越是昂贵的餐厅，使用法语的频率越高，尤其在1900年左右，高档餐厅使用法语菜名的频率是其他餐厅的五倍。</p>
 <p><figure><a class="lightgallery" href="https://imgur.com/sanrTPz.png" title="Imgur" data-thumbnail="https://imgur.com/sanrTPz.png" data-sub-html="<h2>▲ 我校的 La Crepe 可丽饼菜单，La Crepe 约等于国内高校门口的煎饼果子。即使是路边摊，也要加入法语来提升姿势水平。右下角还有中文标注的「诚招」。几年过去了，这里依然没有一个中国摊饼师傅。</h2><p>Imgur</p>">
@@ -783,10 +783,10 @@ a和b哪里更适合年轻人生活？</p>
 </item>
 <item>
     <title>搬家记</title>
-    <link>https://kuohu233.github.io/posts/2017-08-01moving/</link>
+    <link>https://kuohu.xyz/posts/2017-08-01moving/</link>
     <pubDate>Tue, 01 Aug 2017 09:00:00 -0800</pubDate>
     <author>括弧</author>
-    <guid>https://kuohu233.github.io/posts/2017-08-01moving/</guid>
+    <guid>https://kuohu.xyz/posts/2017-08-01moving/</guid>
     <description><![CDATA[<p>做了一个月的空巢少女后，我终于搬了家。</p>
 <p>前室友离开时太匆忙，收拾完衣服就走了，留下的家具也没有来得及卖出去。床和桌子，旧杂志和海报，都留下来了。我断断续续扔了20来个垃圾袋，什么从来没用过的 baking soda 啊，从来没烧烤却不知道怎么就出现在储物柜里的烧烤酱，一般人完全用不上的各种尺子，还有一柜子茶。但其实我们都不喝茶。</p>
 <p>来美国之前，家里人总要拖着带一些国内的特产，比如茶叶。我还记得当时我妈跟人吵架，就为了一罐茶叶的生产日期：「这不是明前茶的嘛！这是清明节后两天出的！」来美国转交这罐茶叶，我跟收到它的人解释说，我妈妈不是故意要次一点的，是当时实在没货了，只有清明之后生产的茶了，对方突然就笑出声。</p>
@@ -837,10 +837,10 @@ a和b哪里更适合年轻人生活？</p>
 </item>
 <item>
     <title>如果30年的工资还不如随手买一套房子，我为什么要工作？</title>
-    <link>https://kuohu233.github.io/posts/2017-04-26housing_or_compensation/</link>
+    <link>https://kuohu.xyz/posts/2017-04-26housing_or_compensation/</link>
     <pubDate>Wed, 26 Apr 2017 09:00:00 -0800</pubDate>
     <author>括弧</author>
-    <guid>https://kuohu233.github.io/posts/2017-04-26housing_or_compensation/</guid>
+    <guid>https://kuohu.xyz/posts/2017-04-26housing_or_compensation/</guid>
     <description><![CDATA[<p><strong>不如插花，工作不如插花。</strong></p>
 <p>我妈还没到 50 岁，天天叨念想着退休，巴不得她单位裁员把她裁掉。前几天她说想退休以后兼职插花。</p>
 <p>我刚想吐槽说她少女心爆发，忽然想起来好像是有这么一回事。她年轻的时候喜欢两个工作，一个是医生，另一个就是开花店，卖花。然而做了几十年的工作跟着两个一点都不搭边。刚好现在花市搬到我家旁边来，她要是有空可以去学插花，然后把房子卖了，开个花店。</p>
@@ -885,10 +885,10 @@ a和b哪里更适合年轻人生活？</p>
 </item>
 <item>
     <title>当我们被问到Where are you from</title>
-    <link>https://kuohu233.github.io/posts/2017-03-30where_are_you_from/</link>
+    <link>https://kuohu.xyz/posts/2017-03-30where_are_you_from/</link>
     <pubDate>Thu, 30 Mar 2017 09:00:00 -0800</pubDate>
     <author>括弧</author>
-    <guid>https://kuohu233.github.io/posts/2017-03-30where_are_you_from/</guid>
+    <guid>https://kuohu.xyz/posts/2017-03-30where_are_you_from/</guid>
     <description><![CDATA[<p>早起忽然想到这个问题。</p>
 <p>当被人问到 “Where are you from?”的时候，我们该怎么回答？</p>
 <p>“China.” 这是标准教科书的回答。</p>

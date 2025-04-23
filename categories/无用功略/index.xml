@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>无用功略 - Category - 扌舌弓瓜</title>
-        <link>https://kuohu233.github.io/categories/%E6%97%A0%E7%94%A8%E5%8A%9F%E7%95%A5/</link>
+        <link>https://kuohu.xyz/categories/%E6%97%A0%E7%94%A8%E5%8A%9F%E7%95%A5/</link>
         <description>无用功略 - Category - 扌舌弓瓜</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 13 Jun 2024 08:44:34 -0800</lastBuildDate><atom:link href="https://kuohu233.github.io/categories/%E6%97%A0%E7%94%A8%E5%8A%9F%E7%95%A5/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 13 Jun 2024 08:44:34 -0800</lastBuildDate><atom:link href="https://kuohu.xyz/categories/%E6%97%A0%E7%94%A8%E5%8A%9F%E7%95%A5/" rel="self" type="application/rss+xml" /><item>
     <title>裁员浪潮下的北美找工小技巧</title>
-    <link>https://kuohu233.github.io/posts/2024-07-20job_searching_tools/</link>
+    <link>https://kuohu.xyz/posts/2024-07-20job_searching_tools/</link>
     <pubDate>Thu, 13 Jun 2024 08:44:34 -0800</pubDate>
     <author>括弧</author>
-    <guid>https://kuohu233.github.io/posts/2024-07-20job_searching_tools/</guid>
+    <guid>https://kuohu.xyz/posts/2024-07-20job_searching_tools/</guid>
     <description><![CDATA[<p>最近找到一份满意的工作，接下来一段时间暂时不再找工作了。分享一些近期找工用过和看到过的小技巧。</p>
 <p>Background: 2023 年毕业的研究生，非 CS 专业，非名校，拿着需要 sponsorship 的 F-1 学生签证。读研之前有3年略微相关的工作经验，本科专业和研究生完全无关，所以也算是转码转 data 的非科班新人。</p>
 <h3 id="简历修改">简历修改</h3>
@@ -53,10 +53,10 @@
 </item>
 <item>
     <title>用Grafana Alloy监控MySQL数据库</title>
-    <link>https://kuohu233.github.io/posts/2024-06-08-grafana-alloy/</link>
+    <link>https://kuohu.xyz/posts/2024-06-08-grafana-alloy/</link>
     <pubDate>Sun, 09 Jun 2024 09:00:00 -0800</pubDate>
     <author>括弧</author>
-    <guid>https://kuohu233.github.io/posts/2024-06-08-grafana-alloy/</guid>
+    <guid>https://kuohu.xyz/posts/2024-06-08-grafana-alloy/</guid>
     <description><![CDATA[<h3 id="前置要求">前置要求</h3>
 <ol>
 <li>安装MySQL和Grafana Alloy
@@ -108,10 +108,10 @@
 </item>
 <item>
     <title>2023年购物成果一览</title>
-    <link>https://kuohu233.github.io/posts/2023-11-22-thanksgiving-list/</link>
+    <link>https://kuohu.xyz/posts/2023-11-22-thanksgiving-list/</link>
     <pubDate>Wed, 22 Nov 2023 09:00:00 -0800</pubDate>
     <author>括弧</author>
-    <guid>https://kuohu233.github.io/posts/2023-11-22-thanksgiving-list/</guid>
+    <guid>https://kuohu.xyz/posts/2023-11-22-thanksgiving-list/</guid>
     <description><![CDATA[<p>以下内容只包含购买的「物品」，不包含旅游、餐饮、博物馆等体验类消费。</p>
 <p> </p>
 <h2 id="十分满意">十分满意</h2>
@@ -206,10 +206,10 @@
 </item>
 <item>
     <title>面试准备和相关学习</title>
-    <link>https://kuohu233.github.io/posts/2023-07-29system_design/</link>
+    <link>https://kuohu.xyz/posts/2023-07-29system_design/</link>
     <pubDate>Fri, 28 Jul 2023 09:00:00 -0800</pubDate>
     <author>括弧</author>
-    <guid>https://kuohu233.github.io/posts/2023-07-29system_design/</guid>
+    <guid>https://kuohu.xyz/posts/2023-07-29system_design/</guid>
     <description><![CDATA[<h3 id="我的情况">我的情况</h3>
 <p>面向 Data Engineer 求职。</p>
 <p>在学校学过基本的 ML, R, 算法和数据库，能写代码能做题，做过一些简单的项目和实习。</p>
